@@ -15,8 +15,7 @@ python main.py \
       --data_dir "data/" \
       --bert_model bert-large-uncased \
       --max_seq_length 128 \
-      --output_dir model_output/
-      ```
+      --output_dir model_output/ ```
 
 To evaluate one of the downloaded pre-trained models, use the following code:
 ```
@@ -28,8 +27,7 @@ python main.py \
       --bert_model bert-large-uncased \
       --max_seq_length 128 \
       --output_dir model_output/ \
-      --load_from_file models/BERT_Wiki_WscR
-      ```
+      --load_from_file models/BERT_Wiki_WscR ```
 
 To train the BERT\_Wiki model, use the following code:
 ```
@@ -46,8 +44,8 @@ python main.py \
       --beta_param 0.2 \
       --learning_rate 5.0e-6 \
       --num_train_epochs 1.0 \
-      --output_dir model_output/
-      ```
+      --output_dir model_output/ ```
+
 To train the BERT\_Wiki\_WscR model, download the MaskedWiki\_sample into the `data` folder and use the following code:
 ```
 python main.py \
@@ -64,6 +62,5 @@ python main.py \
       --beta_param 0.2 \
       --num_train_epochs 30.0 \
       --output_dir $outfolder/ \
-      --load_from_file models/BERT_Wiki
-      ```
+      --load_from_file models/BERT_Wiki ```
 
