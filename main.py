@@ -1,5 +1,5 @@
 # coding=utf-8
-# Copyright 2018 The Google AI Language Team Authors and The HugginFace Inc. team.
+# Copyright 2018 The Google AI Language Team Authors and The HugginFace Inc. team., 2019 Intelligent Systems Lab, University of Oxford
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -12,8 +12,6 @@
 # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
 # See the License for the specific language governing permissions and
 # limitations under the License.
-
-#Parameters for the filtering model: trained on DPR dataset with parameters tolerance param 0.4 and penalty param 20 and lr 2.0e-5
 
 """BERT finetuning runner."""
 from __future__ import absolute_import
@@ -42,6 +40,9 @@ from pytorch_pretrained_bert.tokenization import BertTokenizer
 from pytorch_pretrained_bert.modeling import PreTrainedBertModel, BertModel, BertOnlyMLMHead
 from pytorch_pretrained_bert.optimization import BertAdam
 from pytorch_pretrained_bert.file_utils import PYTORCH_PRETRAINED_BERT_CACHE
+
+from data_reader import InputExample,DataProcessor
+from scorer import scorer
 
 logging.basicConfig(format = '%(asctime)s - %(levelname)s - %(name)s -   %(message)s', 
                     datefmt = '%m/%d/%Y %H:%M:%S',
@@ -72,124 +73,34 @@ class BertForMaskedLM(PreTrainedBertModel):
         else:
             return prediction_scores
 
-class InputExample(object):
-    """A single training/test example for simple sequence classification."""
-
-    def __init__(self, guid, text_a, candidate_a, candidate_b):
-        """Constructs a InputExample.
-
-        Args:
-            guid: Unique id for the example.
-            text_a: string. Sentence analysed with pronoun replaced for #
-            candidate_a: string, correct candidate
-            candidate_b: string, incorrect candidate
-        """
-        self.guid = guid
-        self.text_a = text_a
-        self.candidate_a = candidate_a
-        self.candidate_b = candidate_b
-
-
 class InputFeatures(object):
     """A single set of features of data."""
 
     def __init__(self, input_ids_1, input_ids_2, attention_mask_1, attention_mask_2, type_1, type_2, masked_lm_1, masked_lm_2):
         self.input_ids_1=input_ids_1
-        self.input_ids_2=input_ids_2
         self.attention_mask_1=attention_mask_1
-        self.attention_mask_2=attention_mask_2
         self.type_1=type_1
-        self.type_2=type_2
         self.masked_lm_1=masked_lm_1
+        #These are only used for train examples
+        self.input_ids_2=input_ids_2
+        self.attention_mask_2=attention_mask_2
+        self.type_2=type_2
         self.masked_lm_2=masked_lm_2
 
-
-class DataProcessor(object):
-    """Base class for data converters for sequence classification data sets."""
-
-    def get_examples(self, data_dir, set_name):
-        """Gets a collection of `InputExample`s for the train set."""
-        raise NotImplementedError()
- 
-    @classmethod
-    def _create_examples(self, lines):
-        """Creates examples for the training and dev sets."""
-        examples = []
-        for id_x,(sent,pronoun,candidates,candidate_a,_) in enumerate(zip(lines[0::5],lines[1::5],lines[2::5],lines[3::5],lines[4::5])):
-            guid = id_x+1
-            sent = sent.strip()
-            text_a = sent.replace(' '+pronoun.strip()+' '," _ ",1)
-            cnd = candidates.split(",")
-            cnd = (cnd[0].strip().lstrip(),cnd[1].strip().lstrip())
-            candidate_a = candidate_a.strip().lstrip()
-            if cnd[0]==candidate_a:
-                candidate_b = cnd[1]
-            else:
-                candidate_b = cnd[0]
-            examples.append(
-                InputExample(guid, text_a, candidate_a, candidate_b))
-        return examples
-
-
-class DprProcessor(DataProcessor):
-    """Processor for the DPR data set."""
-
-    def get_examples(self, data_dir, set_name):
-        """See base class."""
-        file_names = {
-                "train": "train.c.txt",
-                "test": "wsc273.txt"
-                }
-        source = os.path.join(data_dir,file_names[set_name])
-        logger.info("LOOKING AT {}".format(source))
-        return self._create_examples(list(open(source,'r')))
-
-class WikiProcessor(DataProcessor):
-    """Processor for the Wiki data set."""
-
-    def get_examples(self, data_dir, set_name):
-        """See base class."""
-        file_names = {
-                "train": "wiki_train.txt",
-                "wsc": "wsc273.txt",
-                }
-        source = os.path.join(data_dir,file_names[set_name])
-        logger.info("LOOKING AT {}".format(source))
-        return self._create_examples(list(open(source,'r')))
-
-class GutenbergProcessor(DataProcessor):
-    """Processor for the Wiki data set."""
-
-    def get_examples(self, data_dir, set_name):
-        """See base class."""
-        file_names = {
-                "train": "gutenberg_train.txt",
-                "wsc": "wsc273.txt",
-                }
-        source = os.path.join(data_dir,file_names[set_name])
-        logger.info("LOOKING AT {}".format(source))
-        return self._create_examples(list(open(source,'r')))
-
-
-
-def convert_examples_to_features(examples, max_seq_len, tokenizer):
+def convert_examples_to_features_train(examples, max_seq_len, tokenizer):
     """Loads a data file into a list of `InputBatch`s."""
 
     features = []
     for (ex_index, example) in enumerate(examples):
+        tokens_sent = tokenizer.tokenize(example.text_a)
         tokens_a = tokenizer.tokenize(example.candidate_a)
         tokens_b = tokenizer.tokenize(example.candidate_b)
-        tokens_sent = tokenizer.tokenize(example.text_a)
-        
         tokens_1, type_1, attention_mask_1, masked_lm_1 = [],[],[],[]
         tokens_2, type_2, attention_mask_2, masked_lm_2 = [],[],[],[]
         tokens_1.append("[CLS]")
         tokens_2.append("[CLS]")
         for token in tokens_sent:
-            if token in [".","!","?"]:
-                tokens_1.extend([token,"[SEP]"])
-                tokens_2.extend([token,"[SEP]"])
-            elif token=="_":
+            if token=="_":
                 tokens_1.extend(["[MASK]" for _ in range(len(tokens_a))])
                 tokens_2.extend(["[MASK]" for _ in range(len(tokens_b))])
             else:
@@ -202,20 +113,8 @@ def convert_examples_to_features(examples, max_seq_len, tokenizer):
         if tokens_2[-1]!="[SEP]":
             tokens_2.append("[SEP]")
 
-        n_sep = 0
-        for token in tokens_1:
-            type_1.append(n_sep)
-            if token=="[SEP]":
-                n_sep=1#There should not be more than 2 sentences overall. If there are, they are treated as the second sentence.
-        while len(type_1)<max_seq_len:
-            type_1.append(0)
-        n_sep = 0
-        for token in tokens_2:
-            type_2.append(n_sep)
-            if token=="[SEP]":
-                n_sep=1#There should not be more than 2 sentences overall. If there are, they are treated as the second sentence.
-        while len(type_2)<max_seq_len:
-            type_2.append(0)
+        type_1 = max_seq_len*[0]#We do not do any inference.
+        type_2 = max_seq_len*[0]#These embeddings can thus be ignored
 
         attention_mask_1 = (len(tokens_1)*[1])+((max_seq_len-len(tokens_1))*[0])
         attention_mask_2 = (len(tokens_2)*[1])+((max_seq_len-len(tokens_2))*[0])
@@ -273,153 +172,93 @@ def convert_examples_to_features(examples, max_seq_len, tokenizer):
                               masked_lm_2=masked_lm_2))
     return features
 
-def test(processor, args, tokenizer, model, device, global_step = 0, tr_loss = 0, test_set = "dev"):
+
+def convert_examples_to_features_evaluate(examples, max_seq_len, tokenizer):
+    """Loads a data file into a list of `InputBatch`s."""
+
+    features = []
+    for (ex_index, example) in enumerate(examples):
+        tokens_a = tokenizer.tokenize(example.candidate_a)
+        tokens_sent = tokenizer.tokenize(example.text_a)
+        
+        tokens_1, type_1, attention_mask_1, masked_lm_1 = [],[],[],[]
+        tokens_1.append("[CLS]")
+        for token in tokens_sent:
+            if token=="_":
+                tokens_1.extend(["[MASK]" for _ in range(len(tokens_a))])
+            else:
+                tokens_1.append(token)
+        tokens_1 = tokens_1[:max_seq_len-1]#-1 because of [SEP]
+        if tokens_1[-1]!="[SEP]":
+            tokens_1.append("[SEP]")
+
+        type_1 = max_seq_len*[0]
+        attention_mask_1 = (len(tokens_1)*[1])+((max_seq_len-len(tokens_1))*[0])
+        #sentences
+        input_ids_1 = tokenizer.convert_tokens_to_ids(tokens_1)
+        #replacements
+        input_ids_a = tokenizer.convert_tokens_to_ids(tokens_a)
+
+        for token in tokens_1:
+            if token=="[MASK]":
+                if len(input_ids_a)<=0:
+                    continue#broken case
+                masked_lm_1.append(input_ids_a[0])
+                input_ids_a = input_ids_a[1:]
+            else:
+                masked_lm_1.append(-1)
+        while len(masked_lm_1)<max_seq_len:
+            masked_lm_1.append(-1)
+        # Zero-pad up to the sequence length.
+        while len(input_ids_1) < max_seq_len:
+            input_ids_1.append(0)
+        assert len(input_ids_1) == max_seq_len
+        assert len(attention_mask_1) == max_seq_len
+        assert len(type_1) == max_seq_len
+        assert len(masked_lm_1) == max_seq_len
+
+        features.append(
+                InputFeatures(input_ids_1=input_ids_1,
+                              input_ids_2=None,
+                              attention_mask_1=attention_mask_1,
+                              attention_mask_2=None,
+                              type_1=type_1,
+                              type_2=None,
+                              masked_lm_1=masked_lm_1,
+                              masked_lm_2=None))
+    return features
+
+def test(processor, args, tokenizer, model, device, global_step = 0, tr_loss = 0, test_set = "wscr-test"):
     eval_examples = processor.get_examples(args.data_dir,test_set)
-    eval_features = convert_examples_to_features(
+    eval_features = convert_examples_to_features_evaluate(
         eval_examples, args.max_seq_length, tokenizer)
     logger.info("***** Running evaluation *****")
     logger.info("  Num examples = %d", len(eval_examples))
     logger.info("  Batch size = %d", args.eval_batch_size)
     all_input_ids_1 = torch.tensor([f.input_ids_1 for f in eval_features], dtype=torch.long)
-    all_input_ids_2 = torch.tensor([f.input_ids_2 for f in eval_features], dtype=torch.long)
     all_attention_mask_1 = torch.tensor([f.attention_mask_1 for f in eval_features], dtype=torch.long)
-    all_attention_mask_2 = torch.tensor([f.attention_mask_2 for f in eval_features], dtype=torch.long)
     all_segment_ids_1 = torch.tensor([f.type_1 for f in eval_features], dtype=torch.long)
-    all_segment_ids_2 = torch.tensor([f.type_2 for f in eval_features], dtype=torch.long)
     all_masked_lm_1 = torch.tensor([f.masked_lm_1 for f in eval_features], dtype=torch.long)
-    all_masked_lm_2 = torch.tensor([f.masked_lm_2 for f in eval_features], dtype=torch.long)
-    eval_data = TensorDataset(all_input_ids_1, all_input_ids_2, all_attention_mask_1, all_attention_mask_2, all_segment_ids_1, all_segment_ids_2, all_masked_lm_1, all_masked_lm_2)
+    eval_data = TensorDataset(all_input_ids_1, all_attention_mask_1, all_segment_ids_1, all_masked_lm_1)
     # Run prediction for full data
     eval_sampler = SequentialSampler(eval_data)
     eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size)
 
     model.eval()
-    eval_loss, eval_accuracy = 0, 0
-    nb_eval_steps, nb_eval_examples = 0, 0
-    for input_ids_1, input_ids_2, input_mask_1, input_mask_2, segment_ids_1, segment_ids_2, label_ids_1, label_ids_2 in eval_dataloader:
-        input_ids_1 = input_ids_1.to(device)
-        input_ids_2 = input_ids_2.to(device)
-        input_mask_1 = input_mask_1.to(device)
-        input_mask_2 = input_mask_2.to(device)
-        segment_ids_1 = segment_ids_1.to(device)
-        segment_ids_2 = segment_ids_2.to(device)
-        label_ids_1 = label_ids_1.to(device)
-        label_ids_2 = label_ids_2.to(device)
-
+    ans_stats=[]
+    for batch in tqdm(eval_dataloader,desc="Evaluation"):
+        input_ids_1, input_mask_1, segment_ids_1, label_ids_1 = (tens.to(device) for tens in batch)
         with torch.no_grad():
-            loss_1 = model.forward(input_ids_1, token_type_ids = segment_ids_1, attention_mask = input_mask_1, masked_lm_labels = label_ids_1)
-            loss_2 = model.forward(input_ids_2, token_type_ids = segment_ids_2, attention_mask = input_mask_2, masked_lm_labels = label_ids_2)
-            loss = loss_1-loss_2
+            loss = model.forward(input_ids_1, token_type_ids = segment_ids_1, attention_mask = input_mask_1, masked_lm_labels = label_ids_1)
 
-        tmp_eval_loss = loss.to('cpu').numpy()
-        tmp_eval_accuracy = len(np.where(tmp_eval_loss<0.0)[0])
-
-        eval_loss += tmp_eval_loss.mean().item()
-        eval_accuracy += tmp_eval_accuracy
-
-        nb_eval_examples += input_ids_1.size(0)
-        nb_eval_steps += 1
-
-    eval_loss = eval_loss / nb_eval_steps
-    eval_accuracy = eval_accuracy / nb_eval_examples
-
-    result = {'eval_loss': eval_loss,
-              'eval_accuracy': eval_accuracy,
-              'global_step': global_step,
-              'loss': tr_loss}
-
-    output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
-    with open(output_eval_file, "a") as writer:
-        logger.info("***** Eval results *****")
-        for key in sorted(result.keys()):
-            logger.info("  %s = %s", key, str(result[key]))
-            writer.write("%s = %s\n" % (key, str(result[key])))
-    return eval_accuracy
-
-def filter_data(processor, args, tokenizer, model, device, test_set = "dev"):
-    eval_examples = processor.get_examples(args.data_dir,test_set)
-    eval_features = convert_examples_to_features(
-        eval_examples, args.max_seq_length, tokenizer)
-    logger.info("***** Running evaluation *****")
-    logger.info("  Num examples = %d", len(eval_examples))
-    logger.info("  Batch size = %d", args.eval_batch_size)
-    filtered_file = open(args.filter_output,"w")
-    all_input_ids_1 = torch.tensor([f.input_ids_1 for f in eval_features], dtype=torch.long)
-    all_input_ids_2 = torch.tensor([f.input_ids_2 for f in eval_features], dtype=torch.long)
-    all_attention_mask_1 = torch.tensor([f.attention_mask_1 for f in eval_features], dtype=torch.long)
-    all_attention_mask_2 = torch.tensor([f.attention_mask_2 for f in eval_features], dtype=torch.long)
-    all_segment_ids_1 = torch.tensor([f.type_1 for f in eval_features], dtype=torch.long)
-    all_segment_ids_2 = torch.tensor([f.type_2 for f in eval_features], dtype=torch.long)
-    all_masked_lm_1 = torch.tensor([f.masked_lm_1 for f in eval_features], dtype=torch.long)
-    all_masked_lm_2 = torch.tensor([f.masked_lm_2 for f in eval_features], dtype=torch.long)
-    eval_data = TensorDataset(all_input_ids_1, all_input_ids_2, all_attention_mask_1, all_attention_mask_2, all_segment_ids_1, all_segment_ids_2, all_masked_lm_1, all_masked_lm_2)
-    # Run prediction for full data
-    eval_sampler = SequentialSampler(eval_data)
-    eval_dataloader = DataLoader(eval_data, sampler=eval_sampler, batch_size=args.eval_batch_size)
-
-    model.eval()
-    eval_loss, eval_accuracy = 0, 0
-    nb_eval_steps, nb_eval_examples = 0, 0
-    cnt = 0
-    n_filtered = 0
-    for input_ids_1, input_ids_2, input_mask_1, input_mask_2, segment_ids_1, segment_ids_2, label_ids_1, label_ids_2 in eval_dataloader:
-        input_ids_1 = input_ids_1.to(device)
-        input_ids_2 = input_ids_2.to(device)
-        input_mask_1 = input_mask_1.to(device)
-        input_mask_2 = input_mask_2.to(device)
-        segment_ids_1 = segment_ids_1.to(device)
-        segment_ids_2 = segment_ids_2.to(device)
-        label_ids_1 = label_ids_1.to(device)
-        label_ids_2 = label_ids_2.to(device)
-
-        with torch.no_grad():
-            loss_1 = model.forward(input_ids_1, token_type_ids = segment_ids_1, attention_mask = input_mask_1, masked_lm_labels = label_ids_1)
-            loss_2 = model.forward(input_ids_2, token_type_ids = segment_ids_2, attention_mask = input_mask_2, masked_lm_labels = label_ids_2)
-            loss = loss_1-loss_2
-
-        tmp_eval_loss = loss.to('cpu').numpy()
-        tmp_eval_accuracy = len(np.where(tmp_eval_loss<0.0)[0])
-
-        cnt2 = 0
-        for diff in tmp_eval_loss:
-            num_words = len(eval_examples[cnt].text_a.split())
-            num_tokens = sum(0 if token in [0,100,101,102,103] else 1 for token in input_ids_1[cnt2].cpu().data)
-            if '\"' in eval_examples[cnt].candidate_a or '\"' in eval_examples[cnt].candidate_b:#throw out faulty data
-                cnt+=1
-                cnt2+=1
-                continue
-            #Wiki range:  -0.075<=diff<=0.30 and ratio >= 0.9
-            #if -0.075<=diff<=0.15 and float(num_words)/num_tokens>=0.9:#Gutenberg range
-            #Currently, no filtering is done. Only analysis
-            if True:
-                filtered_file.write("{}\n[MASK]\n{},{}\n{}\n{}\t{}\n".format(str(eval_examples[cnt].text_a.replace("_","[MASK]")),str(eval_examples[cnt].candidate_a),str(eval_examples[cnt].candidate_b),str(eval_examples[cnt].candidate_a),diff,float(num_words)/num_tokens))
-                n_filtered+=1
-            cnt+=1
-            cnt2+=1
-            
-        eval_loss += tmp_eval_loss.mean().item()
-        eval_accuracy += tmp_eval_accuracy
-
-        nb_eval_examples += input_ids_1.size(0)
-        nb_eval_steps += 1
-
-    filtered_file.close()
-    eval_loss = eval_loss / nb_eval_steps
-    eval_accuracy = eval_accuracy / nb_eval_examples
-
-    result = {'eval_loss': eval_loss,
-              'eval_accuracy': eval_accuracy}
-
-    output_eval_file = os.path.join(args.output_dir, "eval_results.txt")
-    logger.info("Size of filtered dataset: {}\n".format(n_filtered))
-    with open(output_eval_file, "a") as writer:
-        logger.info("***** Eval results *****")
-        for key in sorted(result.keys()):
-            logger.info("  %s = %s", key, str(result[key]))
-            writer.write("%s = %s\n" % (key, str(result[key])))
-    return eval_accuracy
-
-
+        eval_loss = loss.to('cpu').numpy()
+        for loss in eval_loss:
+            curr_id = len(ans_stats)
+            ans_stats.append((eval_examples[curr_id].guid,eval_examples[curr_id].ex_true,loss))
+    if test_set=="wnli":
+        return scorer(ans_stats,test_set,output_file=os.path.join(args.output_dir, "WNLI.tsv"))
+    else:
+        return scorer(ans_stats,test_set)
 
 
 def main():
@@ -430,7 +269,7 @@ def main():
                         default=None,
                         type=str,
                         required=True,
-                        help="The input data dir. Should contain the .tsv files (or other data files) for the task.")
+                        help="The input data dir. Should contain the files for the task.")
     parser.add_argument("--bert_model", default=None, type=str, required=True,
                         help="Bert pre-trained model selected in the list: bert-base-uncased, "
                              "bert-large-uncased, bert-base-cased, bert-base-multilingual, bert-base-chinese.")
@@ -460,14 +299,14 @@ def main():
                         default=False,
                         action='store_true',
                         help="Whether to run eval on the dev set.")
-    parser.add_argument("--tolerance_param",
-                        default=0.4,
-                        type=float,
-                        help="Discriminative intolerance interval hyper-parameter.")
-    parser.add_argument("--penalty_param",
+    parser.add_argument("--alpha_param",
                         default=10,
                         type=float,
                         help="Discriminative penalty hyper-parameter.")
+    parser.add_argument("--beta_param",
+                        default=0.4,
+                        type=float,
+                        help="Discriminative intolerance interval hyper-parameter.")
     parser.add_argument("--train_batch_size",
                         default=32,
                         type=int,
@@ -477,11 +316,11 @@ def main():
                         type=int,
                         help="Total batch size for eval.")
     parser.add_argument("--learning_rate",
-                        default=5e-5,
+                        default=3e-5,
                         type=float,
                         help="The initial learning rate for Adam.")
     parser.add_argument("--num_train_epochs",
-                        default=3.0,
+                        default=1.0,
                         type=float,
                         help="Total number of training epochs to perform.")
     parser.add_argument("--warmup_proportion",
@@ -501,22 +340,12 @@ def main():
                         type=int,
                         default=1,
                         help="Number of updates steps to accumulate before performing a backward/update pass.")                       
-    parser.add_argument('--filter_output',
+    parser.add_argument('--load_from_file',
                         type=str,
-                        default="filtered_output.txt",
-                        help="Output file of the filtering process.")                       
-    parser.add_argument('--batch_id',
-                        type=str,
-                        default="batch_1",
-                        help="Temporary, name of the batch to be filtered.")                       
+                        default=None,
+                        help="Path to the file with a trained model. Default means bert-model is used. Size must match bert-model.")                       
+            
     args = parser.parse_args()
-
-    processors = {
-        "dpr": DprProcessor,
-        "wiki": WikiProcessor,
-        "gutenberg":GutenbergProcessor
-    }
-
     if args.local_rank == -1 or args.no_cuda:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
         n_gpu = torch.cuda.device_count()
@@ -547,33 +376,38 @@ def main():
 
     task_name = args.task_name.lower()
 
-    if task_name not in processors:
-        raise ValueError("Task not found: %s" % (task_name))
-
-    processor = processors[task_name]()
+    processor = DataProcessor()
 
     tokenizer = BertTokenizer.from_pretrained(args.bert_model)
 
     train_examples = None
     num_train_steps = None
     if args.do_train:
-        train_examples = processor.get_examples(args.data_dir, "train")
+        train_name = {"wscr":"wscr-train",
+                "maskedwiki":"maskedwiki",
+                }[task_name]
+        
+        train_examples = processor.get_examples(args.data_dir, train_name)
         num_train_steps = int(
             len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
 
     # Prepare model
-    model = BertForMaskedLM.from_pretrained(args.bert_model, 
-                cache_dir=PYTORCH_PRETRAINED_BERT_CACHE / 'distributed_{}'.format(args.local_rank))
+    if args.load_from_file is None:
+        model = BertForMaskedLM.from_pretrained(args.bert_model, 
+                    cache_dir=PYTORCH_PRETRAINED_BERT_CACHE / 'distributed_{}'.format(args.local_rank))
+    else:
+        model = BertForMaskedLM.from_untrained(args.bert_model, 
+                    cache_dir=PYTORCH_PRETRAINED_BERT_CACHE / 'distributed_{}'.format(args.local_rank))
     model.to(device)
     if args.local_rank != -1:
         model = torch.nn.parallel.DistributedDataParallel(model, device_ids=[args.local_rank],
                                                           output_device=args.local_rank)
-    else:#if n_gpu > 1:
+    else:
         model = torch.nn.DataParallel(model)
 
-#TODO throw out following 2 lines or implement some better model loading
-    model_dict = torch.load("WikiWscrModel/best_model")
-    model.load_state_dict(model_dict)
+    if not args.load_from_file is None:
+        model_dict = torch.load(args.load_from_file)
+        model.load_state_dict(model_dict)
 
     # Prepare optimizer
     param_optimizer = list(model.named_parameters())
@@ -594,7 +428,7 @@ def main():
     global_step = 0
     tr_loss,nb_tr_steps = 0, 1
     if args.do_train:
-        train_features = convert_examples_to_features(
+        train_features = convert_examples_to_features_train(
             train_examples, args.max_seq_length, tokenizer)
         logger.info("***** Running training *****")
         logger.info("  Num examples = %d", len(train_examples))
@@ -615,19 +449,26 @@ def main():
             train_sampler = DistributedSampler(train_data)
         train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=args.train_batch_size)
 
+        validation_name = {
+                "wscr":"wscr-test",
+                "maskedwiki":"wscr-test"
+                }[task_name]
+
         model.train()
-        best_accuracy = 0
-        best_dpr_accuracy = 0
+        try:#This prevents overwriting if several scripts are running at the same time (for hyper-parameter search)
+            best_accuracy = float(list(open(os.path.join(args.output_dir,"best_accuracy.txt"),'r'))[0])
+        except:
+            best_accuracy = 0
         for _ in trange(int(args.num_train_epochs), desc="Epoch"):
             tr_loss = 0
             tr_accuracy = 0
             nb_tr_examples, nb_tr_steps = 0, 0
-            for step, batch in enumerate(train_dataloader):
-                batch = tuple(t.to(device) for t in batch)
-                input_ids_1, input_ids_2, input_mask_1, input_mask_2, segment_ids_1, segment_ids_2, label_ids_1, label_ids_2 = batch
+            for step, batch in enumerate(tqdm(train_dataloader)):
+                input_ids_1,input_ids_2,input_mask_1,input_mask_2, segment_ids_1, segment_ids_2, label_ids_1, label_ids_2 = (tens.to(device) for tens in batch)
+                           
                 loss_1 = model.forward(input_ids_1, token_type_ids = segment_ids_1, attention_mask = input_mask_1, masked_lm_labels = label_ids_1)
                 loss_2 = model.forward(input_ids_2, token_type_ids = segment_ids_2, attention_mask = input_mask_2, masked_lm_labels = label_ids_2)
-                loss = loss_1 + args.penalty_param * torch.max(torch.zeros(loss_1.size(),device=device),torch.ones(loss_1.size(),device=device)*args.tolerance_param + loss_1 - loss_2)
+                loss = loss_1 + args.alpha_param * torch.max(torch.zeros(loss_1.size(),device=device),torch.ones(loss_1.size(),device=device)*args.beta_param + loss_1 - loss_2.mean())
                 loss = loss.mean()
                 tr_accuracy += len(np.where(loss_1.detach().cpu().numpy()-loss_2.detach().cpu().numpy()<0.0)[0])
                 if n_gpu > 1:
@@ -642,26 +483,38 @@ def main():
                     optimizer.step()
                     model.zero_grad()
                     global_step += 1
-                if global_step % 2000 == 0:
-                    acc = float(tr_accuracy)/nb_tr_examples if nb_tr_examples>0 else 0#training accuracy
+                if not (task_name in ["wscr"]) and global_step % 200 == 0 and (step + 1) % args.gradient_accumulation_steps == 0:
+                    acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set=validation_name)
                     logger.info("{}\t{}\n".format(nb_tr_steps,acc))
-                    torch.save(model.state_dict(), os.path.join(args.output_dir, "model"))#this piece of code saves intermediate models
-            #acc variable is reused -- unnecessarily confusing but works.
-            acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0)#evaluate on dev
+                    model.train()
+                    try:#If several processes are running in parallel this avoids overwriting results.
+                        updated_accuracy = float(list(open(os.path.join(args.output_dir,"best_accuracy.txt"),'r'))[0])
+                    except:
+                        updated_accuracy = 0
+                    best_accuracy = max(best_accuracy,updated_accuracy)
+                    if acc>best_accuracy:
+                        best_accuracy = acc
+            acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set = validation_name)
+            logger.info("{}\t{}\n".format(nb_tr_steps,acc))
+            model.train()
+            try:
+                updated_accuracy = float(list(open(os.path.join(args.output_dir,"best_accuracy.txt"),'r'))[0])
+            except:
+                updated_accuracy = 0
+            best_accuracy = max(best_accuracy,updated_accuracy)
             if acc>best_accuracy:
                 best_accuracy = acc
                 torch.save(model.state_dict(), os.path.join(args.output_dir, "best_model"))
+                with open(os.path.join(args.output_dir,"best_accuracy.txt"),'w') as f1_report:
+                    f1_report.write("{}".format(best_accuracy))
         #reload the best model
-        logger.info("Best train acc {}".format(best_accuracy))
+        logger.info("Best dev acc {}".format(best_accuracy))
         model_dict = torch.load(os.path.join(args.output_dir, "best_model"))
         model.load_state_dict(model_dict)
-        #save unparallelised and headless models if needed
-        #torch.save(model.module.state_dict(), os.path.join(args.output_dir, "model_unparallelised"))
-        #torch.save(model.module.bert.state_dict(), os.path.join(args.output_dir, "model_no_head"))
 
     if args.do_eval and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
-        #test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="dev")
-        test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="test")
+        print("WSC: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="wsc"))
+        _=test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="wnli")
 
 if __name__ == "__main__":
     main()

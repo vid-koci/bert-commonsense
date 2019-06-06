@@ -1,0 +1,1365 @@
+The city councilmen refused the demonstrators a permit because [MASK]  feared violence. 
+[MASK]
+The city councilmen ,The demonstrators 
+The city councilmen 
+
+The city councilmen refused the demonstrators a permit because [MASK]  advocated violence. 
+[MASK]
+The demonstrators ,The city councilmen 
+The demonstrators 
+
+The trophy doesn't fit into the brown suitcase because  [MASK]  is too large. 
+[MASK]
+the trophy ,the suitcase 
+the trophy 
+
+The trophy doesn't fit into the brown suitcase because  [MASK]  is too small. 
+[MASK]
+the suitcase ,the trophy 
+the suitcase 
+
+Joan made sure to thank Susan for all the help  [MASK]  had recieved. 
+[MASK]
+ Joan , Susan  
+ Joan 
+
+Joan made sure to thank Susan for all the help  [MASK]  had given. 
+[MASK]
+ Susan  , Joan 
+ Susan  
+
+Paul tried to call George on the phone, but  [MASK]  wasn't successful. 
+[MASK]
+ Paul , George 
+ Paul 
+
+Paul tried to call George on the phone, but  [MASK]  wasn't available. 
+[MASK]
+ George , Paul 
+ George 
+
+The lawyer asked the witness a question, but  [MASK]  was reluctant to repeat it. 
+[MASK]
+ the lawyer , the witness 
+ the lawyer 
+
+The lawyer asked the witness a question, but  [MASK]  was reluctant to answer it. 
+[MASK]
+ the witness , the lawyer 
+ the witness 
+
+The delivery truck zoomed by the school bus because  [MASK]  was going so fast. 
+[MASK]
+ the delivery truck , the school bus 
+ the delivery truck 
+
+The delivery truck zoomed by the school bus because  [MASK]  was going so slow. 
+[MASK]
+ the school bus , the delivery truck 
+ the school bus 
+
+Frank felt vindicated when his longtime rival Bill revealed that  [MASK]  was the winner of the competition.
+[MASK]
+ Frank , Bill 
+ Frank 
+
+Frank felt crushed when his longtime rival Bill revealed that  [MASK]  was the winner of the competition.
+[MASK]
+ Bill , Frank 
+ Bill 
+
+The man couldn't lift his son because  [MASK]  was so weak. 
+[MASK]
+ The man , The son 
+ The man 
+
+The man couldn't lift his son because  [MASK]  was so heavy. 
+[MASK]
+ The son , The man 
+ The son 
+
+The large ball crashed right through the table because  [MASK]  was made of steel. 
+[MASK]
+The large ball ,The table 
+The large ball 
+
+The large ball crashed right through the table because  [MASK]  was made of styrofoam. 
+[MASK]
+The table ,The large ball 
+The table 
+
+John couldn't see the stage with Billy in front of him because  [MASK]  is so short. 
+[MASK]
+John ,Billy 
+John 
+
+John couldn't see the stage with Billy in front of him because  [MASK]  is so tall. 
+[MASK]
+Billy ,John 
+Billy 
+
+Tom threw his schoolbag down to Ray after  [MASK]  reached the top of the stairs. 
+[MASK]
+Tom ,Ray 
+Tom 
+
+Tom threw his schoolbag down to Ray after  [MASK]  reached the bottom of the stairs. 
+[MASK]
+Ray ,Tom 
+Ray 
+
+Although they ran at about the same speed, Sue beat Sally because  [MASK]  had such a good start. 
+[MASK]
+ Sue , Sally 
+ Sue 
+
+Although they ran at about the same speed, Sue beat Sally because  [MASK]  had such a bad start. 
+[MASK]
+ Sally , Sue 
+ Sally 
+
+The sculpture rolled off the shelf because  [MASK]  wasn't anchored. 
+[MASK]
+ The sculpture , The shelf 
+ The sculpture 
+
+The sculpture rolled off the shelf because  [MASK]  wasn't level. 
+[MASK]
+ The shelf , The sculpture 
+ The shelf 
+
+Sam's drawing was hung just above Tina's and  [MASK]  did look much better with another one below it. 
+[MASK]
+ Sam's drawing , Tina's drawing 
+ Sam's drawing 
+
+Sam's drawing was hung just above Tina's and  [MASK]  did look much better with another one above it. 
+[MASK]
+ Tina's drawing , Sam's drawing 
+ Tina's drawing 
+
+Anna did a lot better than her good friend Lucy on the test because  [MASK]  had studied so hard. 
+[MASK]
+Anna ,Lucy 
+Anna 
+
+Anna did a lot worse than her good friend Lucy on the test because  [MASK]  had studied so hard. 
+[MASK]
+Lucy ,Anna 
+Lucy 
+
+The firemen arrived after the police because  [MASK]  were coming from so far away. 
+[MASK]
+The firemen ,The police 
+The firemen 
+
+The firemen arrived before the police because  [MASK]  were coming from so far away. 
+[MASK]
+The police ,The firemen 
+The police 
+
+Frank was upset with Tom because the toaster  [MASK]  had bought from him didn't work. 
+[MASK]
+ Frank , Tom 
+ Frank 
+
+Frank was upset with Tom because the toaster  [MASK]  had sold him didn't work. 
+[MASK]
+ Tom , Frank 
+ Tom 
+
+Jim yelled at Kevin because  [MASK]  was so upset. 
+[MASK]
+Jim  ,Kevin  
+Jim  
+
+Jim comforted Kevin because  [MASK]  was so upset. 
+[MASK]
+Kevin  ,Jim  
+Kevin  
+
+The sack of potatoes had been placed above the bag of flour, so  [MASK]  had to be moved first. 
+[MASK]
+ The sack of potatoes , The bag of flour 
+ The sack of potatoes 
+
+The sack of potatoes had been placed below the bag of flour, so  [MASK]  had to be moved first. 
+[MASK]
+ The bag of flour , The sack of potatoes 
+ The bag of flour 
+
+Pete envies Martin although  [MASK]  is very successful. 
+[MASK]
+ Pete , Martin 
+ Pete 
+
+Pete envies Martin because  [MASK]  is very successful. 
+[MASK]
+ Martin , Pete 
+ Martin 
+
+The older students were bullying the younger ones, so we punished  [MASK] . 
+[MASK]
+The older students ,The younger students 
+The older students 
+
+The older students were bullying the younger ones, so we rescued  [MASK] . 
+[MASK]
+The younger students ,The older students 
+The younger students 
+
+I poured water from the bottle into the cup until  [MASK]  was empty. 
+[MASK]
+ the bottle , the cup 
+ the bottle 
+
+I poured water from the bottle into the cup until  [MASK]  was full. 
+[MASK]
+ the cup , the bottle 
+ the cup 
+
+Susan knows all about Ann's personal problems because  [MASK]  is nosy. 
+[MASK]
+ Susan , Ann 
+ Susan 
+
+Susan knows all about Ann's personal problems because  [MASK]  is indiscreet. 
+[MASK]
+ Ann , Susan 
+ Ann 
+
+Sid explained his theory to Mark but  [MASK]  couldn't convince him. 
+[MASK]
+Sid  ,Mark 
+Sid  
+
+Sid explained his theory to Mark but  [MASK]  couldn't understand him. 
+[MASK]
+Mark ,Sid  
+Mark 
+
+Susan knew that Ann's son had been in a car accident, so  [MASK]  told her about it. 
+[MASK]
+ Susan , Ann 
+ Susan 
+
+Susan knew that Ann's son had been in a car accident, because  [MASK]  told her about it. 
+[MASK]
+ Ann , Susan 
+ Ann 
+
+Joe's uncle can still beat him at tennis, even though  [MASK]  is 30 years younger. 
+[MASK]
+ Joe , Joe's uncle 
+ Joe 
+
+Joe's uncle can still beat him at tennis, even though  [MASK]  is 30 years older. 
+[MASK]
+ Joe's uncle , Joe 
+ Joe's uncle 
+
+The painting in Mark's living room shows an oak tree.  [MASK]  is to the right of the bookcase. 
+[MASK]
+ The painting , The oak tree 
+ The painting 
+
+The painting in Mark's living room shows an oak tree.  [MASK]  is to the right of a house. 
+[MASK]
+ The oak tree , The painting 
+ The oak tree 
+
+There is a gap in the wall. You can see the garden through  [MASK] . 
+[MASK]
+ The gap , The wall 
+ The gap 
+
+There is a gap in the wall. You can see the garden behind  [MASK] . 
+[MASK]
+ The wall , The gap 
+ The wall 
+
+The drain is clogged with hair.  [MASK]  has to be cleaned. 
+[MASK]
+ The drain , The hair 
+ The drain 
+
+The drain is clogged with hair.  [MASK]  has to be removed. 
+[MASK]
+ The hair , The drain 
+ The hair 
+
+My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily,  [MASK]  was short, so it worked out. 
+[MASK]
+ The meeting , The train 
+ The meeting 
+
+My meeting started at 4:00 and I needed to catch the train at 4:30, so there wasn't much time. Luckily,  [MASK]  was delayed, so it worked out. 
+[MASK]
+ The train , The meeting 
+ The train 
+
+There is a pillar between me and the stage, and I can't see around  [MASK] . 
+[MASK]
+ The pillar , The stage 
+ The pillar 
+
+There is a pillar between me and the stage, and I can't see  [MASK] . 
+[MASK]
+ The stage , The pillar 
+ The stage 
+
+They broadcast an announcement, but a subway came into the station and I couldn't hear  [MASK] . 
+[MASK]
+The announcement ,The subway 
+The announcement 
+
+They broadcast an announcement, but a subway came into the station and I couldn't hear over  [MASK] . 
+[MASK]
+The subway ,The announcement 
+The subway 
+
+In the middle of the outdoor concert, the rain started falling, but  [MASK]  continued until 10. 
+[MASK]
+ The concert , The rain 
+ The concert 
+
+In the middle of the outdoor concert, the rain started falling, and  [MASK]  continued until 10. 
+[MASK]
+ The rain , The concert 
+ The rain 
+
+I used an old rag to clean the knife, and then I put  [MASK]  in the trash. 
+[MASK]
+The rag ,The knife 
+The rag 
+
+I used an old rag to clean the knife, and then I put  [MASK]  in the drawer. 
+[MASK]
+The knife ,The rag 
+The knife 
+
+Ann asked Mary what time the library closes, because  [MASK]  had forgotten. 
+[MASK]
+ Ann , Mary 
+ Ann 
+
+Ann asked Mary what time the library closes, but  [MASK]  had forgotten. 
+[MASK]
+ Mary , Ann 
+ Mary 
+
+I took the water bottle out of the backpack so that  [MASK]  would be handy. 
+[MASK]
+ The water bottle , The backpack 
+ The water bottle 
+
+I took the water bottle out of the backpack so that  [MASK]  would be lighter. 
+[MASK]
+ The backpack , The water bottle 
+ The backpack 
+
+I couldn't put the pot on the shelf because  [MASK]  was too tall. 
+[MASK]
+The pot ,The shelf 
+The pot 
+
+I couldn't put the pot on the shelf because  [MASK]  was too high. 
+[MASK]
+The shelf ,The pot 
+The shelf 
+
+I'm sure that my map will show this building;  [MASK]  is very good. 
+[MASK]
+ The map , The building 
+ The map 
+
+I'm sure that my map will show this building;  [MASK]  is very famous. 
+[MASK]
+ The building , The map 
+ The building 
+
+Bob paid for Charlie's college education.  [MASK]  is very generous. 
+[MASK]
+ Bob , Charlie 
+ Bob 
+
+Bob paid for Charlie's college education.  [MASK]  is very grateful. 
+[MASK]
+ Charlie , Bob 
+ Charlie 
+
+Bob paid for Charlie's college education, but now Charlie acts as though it never happened.  [MASK]  is very hurt. 
+[MASK]
+ Bob , Charlie 
+ Bob 
+
+Bob paid for Charlie's college education, but now Charlie acts as though it never happened.  [MASK]  is very ungrateful. 
+[MASK]
+ Charlie , Bob 
+ Charlie 
+
+Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck,  [MASK]  would have won. 
+[MASK]
+ Bob , Adam 
+ Bob 
+
+Bob was playing cards with Adam and was way ahead. If Adam hadn't had a sudden run of good luck,  [MASK]  would have lost. 
+[MASK]
+ Adam , Bob 
+ Adam 
+
+Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time,  [MASK]  would be gone by this time. 
+[MASK]
+ Adam , Bob 
+ Adam 
+
+Adam can't leave work here until Bob arrives to replace him. If Bob had left home for work on time,  [MASK]  would be here by this time. 
+[MASK]
+ Bob , Adam 
+ Bob 
+
+If the con artist has succeeded in fooling Sam,  [MASK]  would have gotten a lot of money. 
+[MASK]
+The con artist ,Sam 
+The con artist 
+
+If the con artist has succeeded in fooling Sam,  [MASK]  would have lost a lot of money. 
+[MASK]
+Sam ,The con artist 
+Sam 
+
+It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because  [MASK]  was hot. 
+[MASK]
+The dog ,The spot under the tree 
+The dog 
+
+It was a summer afternoon, and the dog was sitting in the middle of the lawn. After a while, it got up and moved to a spot under the tree, because  [MASK]  was cooler. 
+[MASK]
+The spot under the tree ,The dog 
+The spot under the tree 
+
+The cat was lying by the mouse hole waiting for the mouse, but  [MASK]  was too impatient. 
+[MASK]
+The cat ,The mouse 
+The cat 
+
+The cat was lying by the mouse hole waiting for the mouse, but  [MASK]  was too cautious. 
+[MASK]
+The mouse ,The cat 
+The mouse 
+
+Anne gave birth to a daughter last month.  [MASK]  is a very charming woman. 
+[MASK]
+ Anne , Anne's daughter 
+ Anne 
+
+Anne gave birth to a daughter last month.  [MASK]  is a very charming baby. 
+[MASK]
+ Anne's daughter , Anne 
+ Anne's daughter 
+
+Alice tried frantically to stop her daughter from chatting at the party, leaving us to wonder why  [MASK]  was behaving so strangely. 
+[MASK]
+ Alice, Alice's daughter 
+ Alice
+
+Alice tried frantically to stop her daughter from barking at the party, leaving us to wonder why  [MASK]  was behaving so strangely. 
+[MASK]
+ Alice's daughter , Alice 
+ Alice's daughter 
+
+I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know why  [MASK]  was, but he looked very unhappy. 
+[MASK]
+ Jim , the guy in uniform 
+ Jim 
+
+I saw Jim yelling at some guy in a military uniform with a huge red beard. I don't know who  [MASK]  was, but he looked very unhappy. 
+[MASK]
+ the guy in uniform , Jim 
+ the guy in uniform 
+
+The fish ate the worm.  [MASK]  was hungry. 
+[MASK]
+The fish ,The worm 
+The fish 
+
+The fish ate the worm.  [MASK]  was tasty. 
+[MASK]
+The worm ,The fish 
+The worm 
+
+I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get  [MASK]  in. 
+[MASK]
+ The key , The chewing gum 
+ The key 
+
+I was trying to open the lock with the key, but someone had filled the keyhole with chewing gum, and I couldn't get  [MASK]  out. 
+[MASK]
+ The chewing gum , The key 
+ The chewing gum 
+
+The dog chased the cat, which ran up a tree.  [MASK]  waited at the bottom. 
+[MASK]
+ The dog , The cat 
+ The dog 
+
+The dog chased the cat, which ran up a tree.  [MASK]  waited at the top. 
+[MASK]
+ The cat , The dog 
+ The cat 
+
+In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get  [MASK]  removed. 
+[MASK]
+ The tree , The roof 
+ The tree 
+
+In the storm, the tree fell down and crashed through the roof of my house. Now, I have to get  [MASK]  repaired. 
+[MASK]
+ The roof , The tree 
+ The roof 
+
+The customer walked into the bank and stabbed one of the tellers.  [MASK]  was immediately taken to the police station. 
+[MASK]
+ The customer , The teller 
+ The customer 
+
+The customer walked into the bank and stabbed one of the tellers.  [MASK]  was immediately taken to the hospital. 
+[MASK]
+ The teller , The customer 
+ The teller 
+
+John was doing research in the library when he heard a man humming and whistling.  [MASK]  was very annoyed. 
+[MASK]
+ John , The man 
+ John 
+
+John was doing research in the library when he heard a man humming and whistling.  [MASK]  was very annoying. 
+[MASK]
+ The man , John 
+ The man 
+
+John was jogging through the park when he saw a man juggling watermelons.  [MASK]  was very impressed. 
+[MASK]
+ John , The juggler 
+ John 
+
+John was jogging through the park when he saw a man juggling watermelons.  [MASK]  was very impressive. 
+[MASK]
+ The juggler , John 
+ The juggler 
+
+Bob collapsed on the sidewalk. Soon he saw Carl coming to help.  [MASK]  was very ill. 
+[MASK]
+ Bob , Carl 
+ Bob 
+
+Bob collapsed on the sidewalk. Soon he saw Carl coming to help.  [MASK]  was very concerned. 
+[MASK]
+ Carl , Bob 
+ Carl 
+
+Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because  [MASK]  are fifteen. 
+[MASK]
+ Sam and Amy , Amy's parents 
+ Sam and Amy 
+
+Sam and Amy are passionately in love, but Amy's parents are unhappy about it, because  [MASK]  are snobs. 
+[MASK]
+ Amy's parents , Sam and Amy 
+ Amy's parents 
+
+Mark told Pete many lies about himself, which Pete included in his book.  [MASK]  should have been more  truthful. 
+[MASK]
+ Mark , Pete 
+ Mark 
+
+Mark told Pete many lies about himself, which Pete included in his book.  [MASK]  should have been more  skeptical. 
+[MASK]
+ Pete , Mark 
+ Pete 
+
+Joe has sold his house and bought a new one a few miles away. He will be moving out of  [MASK]  on Thursday. 
+[MASK]
+ The old house , The new house 
+ The old house 
+
+Joe has sold his house and bought a new one a few miles away. He will be moving into  [MASK]  on Thursday. 
+[MASK]
+ The new house , The old house 
+ The new house 
+
+Many people start to read Paul's books and can't put them down.  [MASK]  are gripped because Paul writes so well. 
+[MASK]
+ People , Paul's books 
+ People 
+
+Many people start to read Paul's books and can't put them down.  [MASK]  are popular because Paul writes so well. 
+[MASK]
+ Paul's books , People 
+ Paul's books 
+
+Mary took out her flute and played one of her favorite pieces. She has had  [MASK]  since she was a child. 
+[MASK]
+ The flute , The piece 
+ The flute 
+
+Mary took out her flute and played one of her favorite pieces. She has loved  [MASK]  since she was a child. 
+[MASK]
+ The piece , The flute 
+ The piece 
+
+Sam pulled up a chair to the piano, but  [MASK]  was broken, so he had to stand instead. 
+[MASK]
+The chair ,The piano 
+The chair 
+
+Sam pulled up a chair to the piano, but  [MASK]  was broken, so he had to sing instead. 
+[MASK]
+The piano ,The chair 
+The piano 
+
+Since it was raining, I carried the newspaper in my backpack to keep  [MASK]  dry. 
+[MASK]
+ The newspaper , The backpack 
+ The newspaper 
+
+Since it was raining, I carried the newspaper over my backpack to keep  [MASK]  dry. 
+[MASK]
+ The backpack , The newspaper 
+ The backpack 
+
+Sara borrowed the book from the library because she needs it for an article she is working on. She reads  [MASK]  when she gets home from work. 
+[MASK]
+ The book , The article 
+ The book 
+
+Sara borrowed the book from the library because she needs it for an article she is working on. She writes  [MASK]  when she gets home from work. 
+[MASK]
+ The article , The book 
+ The article 
+
+This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the tide knocked  [MASK]  down. 
+[MASK]
+ The sand castle , The flag 
+ The sand castle 
+
+This morning, Joey built a sand castle on the beach, and put a toy flag in the highest tower, but this afternoon the wind knocked  [MASK]  down. 
+[MASK]
+ The flag , The sand castle 
+ The flag 
+
+Jane knocked on Susan's door, but there was no answer.  [MASK]  was disappointed. 
+[MASK]
+ Jane , Susan 
+ Jane 
+
+Jane knocked on Susan's door, but there was no answer.  [MASK]  was out. 
+[MASK]
+ Susan , Jane 
+ Susan 
+
+Jane knocked on the door, and Susan answered it.  [MASK]  invited her to come out. 
+[MASK]
+ Jane , Susan 
+ Jane 
+
+Jane knocked on the door, and Susan answered it.  [MASK]  invited her to come in. 
+[MASK]
+ Susan , Jane 
+ Susan 
+
+Sam took French classes from Adam, because  [MASK]  was eager to speak it fluently. 
+[MASK]
+ Sam , Adam 
+ Sam 
+
+Sam took French classes from Adam, because  [MASK]  was known to speak it fluently. 
+[MASK]
+ Adam , Sam 
+ Adam 
+
+The path to the lake was blocked, so we couldn't use  [MASK] . 
+[MASK]
+ The path , The lake 
+ The path 
+
+The path to the lake was blocked, so we couldn't reach  [MASK] . 
+[MASK]
+ The lake , The path 
+ The lake 
+
+The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started,  [MASK]  was out. 
+[MASK]
+ The sun , The cloud 
+ The sun 
+
+The sun was covered by a thick cloud all morning, but luckily, by the time the picnic started,  [MASK]  was gone. 
+[MASK]
+ The cloud , The sun 
+ The cloud 
+
+We went to the lake, because a shark had been seen at the ocean beach, so  [MASK]  was a safer place to swim. 
+[MASK]
+ The lake , The ocean beach 
+ The lake 
+
+We went to the lake, because a shark had been seen at the ocean beach, so  [MASK]  was a dangerous place to swim. 
+[MASK]
+ The ocean beach , The lake 
+ The ocean beach 
+
+Sam tried to paint a picture of shepherds with sheep, but  [MASK]  ended up looking more like golfers. 
+[MASK]
+ The shepherds , The sheep 
+ The shepherds 
+
+Sam tried to paint a picture of shepherds with sheep, but  [MASK]  ended up looking more like dogs. 
+[MASK]
+ The sheep , The shepherds 
+ The sheep 
+
+Mary tucked her daughter Anne into bed, so that  [MASK]  could work. 
+[MASK]
+ Mary , Mary's daughter 
+ Mary 
+
+Mary tucked her daughter Anne into bed, so that  [MASK]  could sleep. 
+[MASK]
+ Mary's daughter , Mary 
+ Mary's daughter 
+
+Fred and Alice had very warm down coats, but  [MASK]  were not prepared for the cold in Alaska. 
+[MASK]
+Fred and Alice , coats 
+Fred and Alice 
+
+Fred and Alice had very warm down coats, but  [MASK]  were not enough for the cold in Alaska. 
+[MASK]
+ coats ,Fred and Alice 
+ coats 
+
+Thomson visited Cooper's grave in 1765. At that date  [MASK]  had been travelling for five years. 
+[MASK]
+ Thomson , Cooper 
+ Thomson 
+
+Thomson visited Cooper's grave in 1765. At that date  [MASK]  had been dead for five years. 
+[MASK]
+ Cooper , Thomson 
+ Cooper 
+
+Jackson was greatly influenced by Arnold, though  [MASK]  lived two centuries later. 
+[MASK]
+ Jackson , Arnold 
+ Jackson 
+
+Jackson was greatly influenced by Arnold, though  [MASK]  lived two centuries earlier. 
+[MASK]
+ Arnold , Jackson 
+ Arnold 
+
+I can't cut that tree down with that axe;  [MASK]  is too thick. 
+[MASK]
+ The tree , The axe 
+ The tree 
+
+I can't cut that tree down with that axe;  [MASK]  is too small. 
+[MASK]
+ The axe , The tree 
+ The axe 
+
+The foxes are getting in at night and attacking the chickens. I shall have to kill  [MASK] . 
+[MASK]
+ The foxes , The chickens 
+ The foxes 
+
+The foxes are getting in at night and attacking the chickens. I shall have to guard  [MASK] . 
+[MASK]
+ The chickens , The foxes 
+ The chickens 
+
+The foxes are getting in at night and attacking the chickens.  [MASK]  have gotten very bold. 
+[MASK]
+ The foxes , The chickens 
+ The foxes 
+
+The foxes are getting in at night and attacking the chickens.  [MASK]  have gotten very nervous. 
+[MASK]
+ The chickens , The foxes 
+ The chickens 
+
+Fred covered his eyes with his hands, because the wind was blowing sand around. He opened  [MASK]  when the wind stopped. 
+[MASK]
+ His eyes , His hands 
+ His eyes 
+
+Fred covered his eyes with his hands, because the wind was blowing sand around. He lowered  [MASK]  when the wind stopped. 
+[MASK]
+ His hands , His eyes 
+ His hands 
+
+The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured  [MASK]  was too hard to pronounce. 
+[MASK]
+ Terpsichore , Tina 
+ Terpsichore 
+
+The actress used to be named Terpsichore, but she changed it to Tina a few years ago, because she figured  [MASK]  was easier to pronounce. 
+[MASK]
+ Tina , Terpsichore 
+ Tina 
+
+Fred watched TV while George went out to buy groceries. After an hour  [MASK]  got up. 
+[MASK]
+ Fred , George 
+ Fred 
+
+Fred watched TV while George went out to buy groceries. After an hour  [MASK]  got back. 
+[MASK]
+ George , Fred 
+ George 
+
+Fred was supposed to run the dishwasher, but he put it off,  because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned  [MASK]  on. 
+[MASK]
+ The dishwasher , The TV 
+ The dishwasher 
+
+Fred was supposed to run the dishwasher, but he put it off,  because he wanted to watch TV. But the show turned out to be boring, so he changed his mind and turned  [MASK]  off. 
+[MASK]
+ The TV , The dishwasher 
+ The TV 
+
+Fred is the only man still alive who remembers my great-grandfather.  [MASK]  is a remarkable man. 
+[MASK]
+ Fred , My great-grandfather 
+ Fred 
+
+Fred is the only man still alive who remembers my great-grandfather.  [MASK]  was a remarkable man. 
+[MASK]
+ My great-grandfather , Fred 
+ My great-grandfather 
+
+Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father,  [MASK]  was twelve years old. 
+[MASK]
+Fred ,My father 
+Fred 
+
+Fred is the only man alive who still remembers my father as an infant. When Fred first saw my father,  [MASK]  was twelve months old. 
+[MASK]
+My father ,Fred 
+My father 
+
+In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger,  [MASK]  were defeated within weeks. 
+[MASK]
+ Kamchatka , Yakutsk 
+ Kamchatka 
+
+In July, Kamtchatka declared war on Yakutsk. Since Yakutsk's army was much better equipped and ten times larger,  [MASK]  were victorious within weeks. 
+[MASK]
+ Yakutsk , Kamchatka 
+ Yakutsk 
+
+Look! There is a minnow swimming right below that duck!  [MASK]  had better get away to safety fast! 
+[MASK]
+ The minnow , The duck 
+ The minnow 
+
+Look! There is a shark swimming right below that duck!  [MASK]  had better get away to safety fast! 
+[MASK]
+ The duck , The shark  
+ The duck 
+
+Archaeologists have concluded that humans lived in Laputa 20,000 years ago.  [MASK]  hunted for evidence on the river banks. 
+[MASK]
+ Archaeologists  , Prehistoric humans  
+ Archaeologists  
+
+Archaeologists have concluded that humans lived in Laputa 20,000 years ago.  [MASK]  hunted for deer on the river banks. 
+[MASK]
+ Prehistoric humans  , Archaeologists  
+ Prehistoric humans  
+
+The scientists are studying three species of fish that have recently been found living in the Indian Ocean.  [MASK]  began two years ago. 
+[MASK]
+ The scientists , The fish 
+ The scientists 
+
+The scientists are studying three species of fish that have recently been found living in the Indian Ocean.  [MASK]  appeared two years ago. 
+[MASK]
+ The fish , The scientists 
+ The fish 
+
+The journalists interviewed the stars of the new movie.  [MASK]  were very persistent, so the interview lasted for a long time. 
+[MASK]
+ The journalists , The stars 
+ The journalists 
+
+The journalists interviewed the stars of the new movie.  [MASK]  were very cooperative, so the interview lasted for a long time. 
+[MASK]
+ The stars , The journalists 
+ The stars 
+
+The police arrested all of the gang members.  [MASK]  were trying to stop the drug trade in the neighborhood. 
+[MASK]
+ The police , The gang members 
+ The police 
+
+The police arrested all of the gang members.  [MASK]  were trying to run the drug trade in the neighborhood. 
+[MASK]
+ The gang members , The police 
+ The gang members 
+
+I put the cake away in the refrigerator.  [MASK]  has a lot of butter in it. 
+[MASK]
+ The cake , The refrigerator 
+ The cake 
+
+I put the cake away in the refrigerator.  [MASK]  has a lot of leftovers in it. 
+[MASK]
+ The refrigerator , The cake 
+ The refrigerator 
+
+Sam broke both his ankles and he's walking with crutches. But a month or so from now  [MASK]  should be better. 
+[MASK]
+ The ankles , The crutches 
+ The ankles 
+
+Sam broke both his ankles and he's walking with crutches. But a month or so from now  [MASK]  should be unnecessary. 
+[MASK]
+ The crutches , The ankles 
+ The crutches 
+
+When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents.  [MASK]  were very much in the minority. 
+[MASK]
+ The sponsors , The opponents 
+ The sponsors 
+
+When the sponsors of the bill got to the town hall, they were surprised to find that the room was full of opponents.  [MASK]  were very much in the majority. 
+[MASK]
+ The opponents , The sponsors 
+ The opponents 
+
+Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make more of  [MASK] . 
+[MASK]
+ The oatmeal cookies , The chocolate chip cookies 
+ The oatmeal cookies 
+
+Everyone really loved the oatmeal cookies; only a few people liked the chocolate chip cookies. Next time, we should make fewer of  [MASK] . 
+[MASK]
+ The chocolate chip cookies , The oatmeal cookies 
+ The chocolate chip cookies 
+
+We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply not enough of  [MASK] . 
+[MASK]
+copies of the newsletter ,chairs  
+copies of the newsletter 
+
+We had hoped to place copies of our newsletter on all the chairs in the auditorium, but there were simply too many of  [MASK] . 
+[MASK]
+chairs  ,copies of the newsletter 
+chairs  
+
+I stuck a pin through a carrot. When I pulled the pin out,  [MASK]  left a hole. 
+[MASK]
+ The pin , The carrot 
+ The pin 
+
+I stuck a pin through a carrot. When I pulled the pin out,  [MASK]  had a hole. 
+[MASK]
+ The carrot , The pin 
+ The carrot 
+
+I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because  [MASK]  got full of coffee. 
+[MASK]
+ The pen , The coffee 
+ The pen 
+
+I couldn't find a spoon, so I tried using a pen to stir my coffee. But that turned out to be a bad idea, because  [MASK]  got full of ink. 
+[MASK]
+ The coffee , The pen 
+ The coffee 
+
+Steve follows Fred's example in everything.  [MASK]  admires him hugely. 
+[MASK]
+Steve  ,Fred  
+Steve  
+
+Steve follows Fred's example in everything.  [MASK]  influences him hugely. 
+[MASK]
+Fred  ,Steve  
+Fred  
+
+The table won't fit through the doorway because  [MASK]  is too wide. 
+[MASK]
+ The table , The doorway 
+ The table 
+
+The table won't fit through the doorway because  [MASK]  is too narrow. 
+[MASK]
+ The doorway , The table 
+ The doorway 
+
+Grace was happy to trade me her sweater for my jacket. She thinks  [MASK]  looks dowdy on her. 
+[MASK]
+ The sweater , The jacket 
+ The sweater 
+
+Grace was happy to trade me her sweater for my jacket. She thinks  [MASK]  looks great on her. 
+[MASK]
+ The jacket , The sweater 
+ The jacket 
+
+John hired Bill to take care of  [MASK] . 
+[MASK]
+ John , Bill 
+ John 
+
+John hired himself out to Bill to take care of  [MASK] . 
+[MASK]
+ Bill , John 
+ Bill 
+
+John promised Bill to leave, so an hour later  [MASK]  left. 
+[MASK]
+John ,Bill 
+John 
+
+John ordered Bill to leave, so an hour later  [MASK]  left. 
+[MASK]
+Bill ,John 
+Bill 
+
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties  [MASK]  faced in his research. 
+[MASK]
+ Goodman , Xenophanes 
+ Goodman 
+
+Sam Goodman's biography of the Spartan general Xenophanes conveys a vivid sense of the difficulties  [MASK]  faced in his childhood. 
+[MASK]
+ Xenophanes , Goodman 
+ Xenophanes 
+
+Emma's mother had died long ago, and  [MASK]  education had been managed by an excellent woman as governess. 
+[MASK]
+ Emma , Emma's mother 
+ Emma 
+
+Emma's mother had died long ago, and  [MASK]  place had been taken by an excellent woman as governess. 
+[MASK]
+ Emma's mother , Emma 
+ Emma's mother 
+
+Jane knocked on Susan's door but  [MASK]  did not get an answer. 
+[MASK]
+ Jane , Susan 
+ Jane 
+
+Jane knocked on Susan's door but  [MASK]  did not answer. 
+[MASK]
+ Susan , Jane 
+ Susan 
+
+Joe paid the detective after  [MASK]  received the final report on the case. 
+[MASK]
+ Joe , the detective 
+ Joe 
+
+Joe paid the detective after  [MASK]  delivered the final report on the case. 
+[MASK]
+ the detective , Joe 
+ the detective 
+
+Beth didn't get angry with Sally, who had cut her off, because  [MASK]  stopped and counted to ten. 
+[MASK]
+ Beth , Sally 
+ Beth 
+
+Beth didn't get angry with Sally, who had cut her off, because  [MASK]  stopped and apologized. 
+[MASK]
+ Sally , Beth 
+ Sally 
+
+Jim signaled the barman and gestured toward  [MASK]  empty glass 
+[MASK]
+ Jim , The barman 
+ Jim 
+
+Jim signaled the barman and gestured toward  [MASK]  bathroom key. 
+[MASK]
+ The barman , Jim 
+ The barman 
+
+Dan took the rear seat while Bill claimed the front because  [MASK]  "Dibs!" was slow. 
+[MASK]
+ Dan , Bill 
+ Dan 
+
+Dan took the rear seat while Bill claimed the front because  [MASK]  "Dibs!" was quicker. 
+[MASK]
+ Bill , Dan 
+ Bill 
+
+Tom said "Check" to Ralph as he moved  [MASK]  bishop. 
+[MASK]
+ Tom , Ralph 
+ Tom 
+
+Tom said "Check" to Ralph as he took  [MASK]  bishop. 
+[MASK]
+ Ralph , Tom 
+ Ralph 
+
+As Andrea in the crop duster passed over Susan,  [MASK]  could see the landing strip. 
+[MASK]
+ Andrea , Susan 
+ Andrea 
+
+As Andrea in the crop duster passed over Susan,  [MASK]  could see the landing gear. 
+[MASK]
+ Susan , Andrea 
+ Susan 
+
+Tom gave Ralph a lift to school so  [MASK]  wouldn't have to drive alone. 
+[MASK]
+ Tom , Ralph 
+ Tom 
+
+Tom gave Ralph a lift to school so  [MASK]  wouldn't have to walk. 
+[MASK]
+ Ralph , Tom 
+ Ralph 
+
+Bill passed the half-empty plate to John because  [MASK]  was full. 
+[MASK]
+Bill ,John 
+Bill 
+
+Bill passed the half-empty plate to John because  [MASK]  was hungry. 
+[MASK]
+John ,Bill 
+John 
+
+Bill passed the gameboy to John because  [MASK]  turn was over. 
+[MASK]
+Bill ,John 
+Bill 
+
+Bill passed the gameboy to John because  [MASK]  turn was next. 
+[MASK]
+John ,Bill 
+John 
+
+The man lifted the boy onto  [MASK]  shoulders. 
+[MASK]
+ The man , The boy 
+ The man 
+
+The man lifted the boy onto  [MASK]  bunk bed. 
+[MASK]
+ The boy , The man 
+ The boy 
+
+Stretching  [MASK]  back, the woman smiled at the girl. 
+[MASK]
+ The woman , The girl 
+ The woman 
+
+Patting  [MASK]  back, the woman smiled at the girl. 
+[MASK]
+ The girl , The woman 
+ The girl 
+
+Billy cried because Toby wouldn't accept  [MASK]  toy. 
+[MASK]
+ Billy , Toby 
+ Billy 
+
+Billy cried because Toby wouldn't share  [MASK]  toy. 
+[MASK]
+ Toby , Billy 
+ Toby 
+
+Lily spoke to Donna, breaking  [MASK]  silence. 
+[MASK]
+Lily  ,Donna 
+Lily  
+
+Lily spoke to Donna, breaking  [MASK]  concentration. 
+[MASK]
+Donna ,Lily  
+Donna 
+
+When Tommy dropped his ice cream, Timmy giggled, so father gave  [MASK]  a sympathetic look. 
+[MASK]
+ Tommy , Timmy 
+ Tommy 
+
+When Tommy dropped his ice cream, Timmy giggled, so father gave  [MASK]  a stern look. 
+[MASK]
+ Timmy , Tommy 
+ Timmy 
+
+As Ollie carried Tommy up the long winding steps,  [MASK]  legs ached. 
+[MASK]
+ Ollie , Tommy 
+ Ollie 
+
+As Ollie carried Tommy up the long winding steps,  [MASK]  legs dangled. 
+[MASK]
+ Tommy , Ollie 
+ Tommy 
+
+The father carried the sleeping boy in  [MASK]  arms 
+[MASK]
+ The father , The boy 
+ The father 
+
+The father carried the sleeping boy in  [MASK]  bassinet. 
+[MASK]
+ The boy , The father 
+ The boy 
+
+The woman held the girl against  [MASK] chest 
+[MASK]
+The woman ,The girl 
+The woman 
+
+The woman held the girl against  [MASK]  will. 
+[MASK]
+The girl ,The woman 
+The girl 
+
+Pam's parents came home and found her having sex with her boyfriend, Paul.  [MASK]  were furious about it. 
+[MASK]
+Pam's parents ,Pam and Paul 
+Pam's parents 
+
+Pam's parents came home and found her having sex with her boyfriend, Paul.  [MASK]  were embarrassed about it. 
+[MASK]
+Pam and Paul ,Pam's parents 
+Pam and Paul 
+
+Dr. Adams informed Kate that  [MASK]  had retired and presented several options for future treatment. 
+[MASK]
+ Dr. Adams , Kate  
+ Dr. Adams 
+
+Dr. Adams informed Kate that  [MASK]  had cancer and presented several options for future treatment. 
+[MASK]
+ Kate  , Dr. Adams 
+ Kate  
+
+Dan had to stop Bill from toying with the injured bird.  [MASK]  is very compassionate. 
+[MASK]
+Dan ,Bill 
+Dan 
+
+Dan had to stop Bill from toying with the injured bird.  [MASK]  is very cruel. 
+[MASK]
+Bill ,Dan 
+Bill 
+
+George got free tickets to the play, but he gave them to Eric, even though  [MASK]  was particularly eager to see it. 
+[MASK]
+ George , Eric 
+ George 
+
+George got free tickets to the play, but he gave them to Eric, because  [MASK]  was particularly eager to see it. 
+[MASK]
+ Eric , George 
+ Eric 
+
+George got free tickets to the play, but he gave them to Eric, because  [MASK]  was not particularly eager to see it. 
+[MASK]
+ George , Eric 
+ George 
+
+Jane gave Joan candy because  [MASK]  wasn't hungry. 
+[MASK]
+ Jane , Joan 
+ Jane 
+
+Jane gave Joan candy because  [MASK]  was hungry. 
+[MASK]
+ Joan , Jane 
+ Joan 
+
+I tried to paint a picture of an orchard, with lemons in the lemon trees, but  [MASK]  came out looking more like light bulbs. 
+[MASK]
+ lemons , lemon trees 
+ lemons 
+
+I tried to paint a picture of an orchard, with lemons in the lemon trees, but  [MASK]  came out looking more like telephone poles. 
+[MASK]
+ lemon trees , lemons 
+ lemon trees 
+
+James asked Robert for a favor but  [MASK]  was refused. 
+[MASK]
+ James , Robert 
+ James 
+
+James asked Robert for a favor but  [MASK]  refused. 
+[MASK]
+ Robert , James 
+ Robert 
+
+Kirilov ceded the presidency to Shatov because  [MASK]  was less popular. 
+[MASK]
+ Kirilov , Shatov 
+ Kirilov 
+
+Kirilov ceded the presidency to Shatov because  [MASK]  was more popular. 
+[MASK]
+ Shatov , Kirilov 
+ Shatov 
+
+Emma did not pass the ball to Janie although  [MASK]  saw that she was open. 
+[MASK]
+ Emma , Janie 
+ Emma 
+
+Emma did not pass the ball to Janie although  [MASK]  was open. 
+[MASK]
+ Janie , Emma 
+ Janie 
+
+I put the butterfly wing on the table and  [MASK]  broke. 
+[MASK]
+The butterfly wing , The table 
+The butterfly wing 
+
+I put the heavy book on the table and  [MASK]  broke. 
+[MASK]
+ The table ,The heavy book 
+ The table 
+
+Madonna fired her trainer because  [MASK]  couldn't stand her boyfriend. 
+[MASK]
+ Madonna , The trainer 
+ Madonna 
+
+Madonna fired her trainer because  [MASK]  slept with her boyfriend. 
+[MASK]
+ The trainer , Madonna 
+ The trainer 
+
+Madonna fired her trainer because she slept with  [MASK]  boyfriend. 
+[MASK]
+ Madonna , The trainer 
+ Madonna 
+
+Madonna fired her trainer because she couldn't stand  [MASK]  boyfriend. 
+[MASK]
+ The trainer , Madonna 
+ The trainer 
+
+Carol believed that Rebecca suspected that  [MASK]  had stolen the watch. 
+[MASK]
+ Carol , Rebecca 
+ Carol 
+
+Carol believed that Rebecca regretted that  [MASK]  had stolen the watch. 
+[MASK]
+ Rebecca , Carol 
+ Rebecca 
+
