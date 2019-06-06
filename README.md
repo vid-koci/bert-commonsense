@@ -1,4 +1,4 @@
-# bert-commonsense
+# A Surprisingly Robust Trick for Winograd Schema Challenge
 
 This code contains models and experiments for the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://arxiv.org/abs/1905.06290).
 
