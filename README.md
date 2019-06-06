@@ -4,7 +4,7 @@ This code contains models and experiments for the paper [A Surprisingly Robust T
 
 The MaskedWiki datasets and pre-trained models can be downloaded from [this webpage](...). The link contains two datasets, MaskedWiki\_Sample (~2.4M examples) and MaskedWiki\_Full (~130M examples). All the experiments were conducted with the MaskedWiki\_Sample only.
 
-The following libraries are needed to run the code: numpy, pytorch (0.4.1 or later), tqdm, boto3, nltk
+The following libraries are needed to run the code: numpy (version 1.14 was used), pytorch (0.4.1 or later), tqdm, boto3, nltk (version 3.3 was used)
 
 To evaluate BERT, use the following script:
 ```
