@@ -2,9 +2,9 @@
 
 This code contains models and experiments for the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://arxiv.org/abs/1905.06290).
 
-The MaskedWiki datasets and pre-trained models can be downloaded from [this webpage](...). The link contains two datasets, MaskedWiki\_Sample (~2.4M examples) and MaskedWiki\_Full (~130M examples). All the experiments were conducted with the MaskedWiki\_Sample only.
+The MaskedWiki datasets and pre-trained models can be downloaded from [this webpage](https://ora.ox.ac.uk/objects/uuid:9b34602b-c982-4b49-b4f4-6555b5a82c3d). The link contains two datasets, MaskedWiki\_Sample (~2.4M examples) and MaskedWiki\_Full (~130M examples). All the experiments were conducted with the MaskedWiki\_Sample only.
 
-The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (0.4.1 or later), tqdm, boto3, nltk (version 3.3 was used), requests
+The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (version 0.4.1 was used), tqdm, boto3, nltk (version 3.3 was used), requests
 
 To evaluate BERT, use the following script:
 ```
@@ -31,7 +31,9 @@ python main.py \
       --load_from_file models/BERT_Wiki_WscR 
 ```
 
-To train the BERT\_Wiki model, use the following code:
+To train the BERT\_Wiki model, use the code below.
+To reproduce the exact results from the paper, use the versions of the libraries as listed in the conda environment `wsc\_env.yml`.
+Please note that re-training the models with different version of the libraries may yield different results. Running a full hyper-parameter search is recommended in this case.
 ```
 python main.py \
       --task_name maskedwiki \
@@ -49,7 +51,7 @@ python main.py \
       --output_dir model_output/ 
 ```
 
-To train the BERT\_Wiki\_WscR model, download the MaskedWiki\_sample into the `data` folder and use the following code:
+To train the BERT\_Wiki\_WscR model, download the MaskedWiki\_sample into the `data` folder and BERT\_Wiki model into the `models` folder. Then use the following code:
 ```
 python main.py \
       --task_name wscr \
