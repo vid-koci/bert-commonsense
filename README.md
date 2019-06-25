@@ -32,7 +32,7 @@ python main.py \
 ```
 
 To train the BERT\_Wiki model, use the code below.
-To reproduce the exact results from the paper, use the versions of the libraries as listed in the conda environment `wsc\_env.yml`.
+To reproduce the exact results from the paper, use the versions of the libraries as listed in the conda environment `wsc_env.yml`.
 Please note that re-training the models with different version of the libraries may yield different results. Running a full hyper-parameter search is recommended in this case.
 ```
 python main.py \
