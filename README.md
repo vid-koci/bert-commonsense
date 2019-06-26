@@ -69,4 +69,19 @@ python main.py \
       --output_dir model_output/ \
       --load_from_file models/BERT_Wiki 
 ```
+## Reference
 
+```
+@inproceedings{kocijan19acl,
+    title     = {A Surprisingly Robust Trick for Winograd Schema Challenge},
+    author    = {Vid Kocijan and
+               Ana-Maria Cretu and
+               Oana-Maria Camburu and
+               Yordan Yordanov and
+               Thomas Lukasiewicz},
+    booktitle = {The 57th Annual Meeting of the Association for Computational Linguistics (ACL)},
+    address = {Florence, Italy},
+    month = {July},
+    year = {2019}
+}
+```
