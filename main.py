@@ -255,7 +255,9 @@ def test(processor, args, tokenizer, model, device, global_step = 0, tr_loss = 0
         for loss in eval_loss:
             curr_id = len(ans_stats)
             ans_stats.append((eval_examples[curr_id].guid,eval_examples[curr_id].ex_true,loss))
-    if test_set=="wnli":
+    if test_set=="gap-test":
+        return scorer(ans_stats,test_set,output_file=os.path.join(args.output_dir, "gap-answers.tsv"))
+    elif test_set=="wnli":
         return scorer(ans_stats,test_set,output_file=os.path.join(args.output_dir, "WNLI.tsv"))
     else:
         return scorer(ans_stats,test_set)
@@ -383,11 +385,19 @@ def main():
     train_examples = None
     num_train_steps = None
     if args.do_train:
-        train_name = {"wscr":"wscr-train",
+        train_name = {"gap":"gap-train",
+                "wikicrem":"wikicrem-train",
+                "dpr":"dpr-train-small",
+                "wscr":"wscr-train",
+                "all":"all",
                 "maskedwiki":"maskedwiki",
                 }[task_name]
         
-        train_examples = processor.get_examples(args.data_dir, train_name)
+        if task_name=="all":
+            train_examples = processor.get_examples(args.data_dir, "dpr-train")+processor.get_examples(args.data_dir, "gap-train")
+        else:
+            train_examples = processor.get_examples(args.data_dir, train_name)
+
         num_train_steps = int(
             len(train_examples) / args.train_batch_size / args.gradient_accumulation_steps * args.num_train_epochs)
 
@@ -448,10 +458,12 @@ def main():
         else:
             train_sampler = DistributedSampler(train_data)
         train_dataloader = DataLoader(train_data, sampler=train_sampler, batch_size=args.train_batch_size)
-
-        validation_name = {
+        validation_name = {"gap":"gap-dev",
+                "wikicrem":"wikicrem-dev",
+                "dpr":"dpr-dev-small",
+                "all":"all",
+                "maskedwiki":"wscr-test",
                 "wscr":"wscr-test",
-                "maskedwiki":"wscr-test"
                 }[task_name]
 
         model.train()
@@ -483,7 +495,7 @@ def main():
                     optimizer.step()
                     model.zero_grad()
                     global_step += 1
-                if not (task_name in ["wscr"]) and global_step % 200 == 0 and (step + 1) % args.gradient_accumulation_steps == 0:
+                if not (task_name in ["wscr","gap","dpr","all"]) and global_step % 200 == 0 and (step + 1) % args.gradient_accumulation_steps == 0:#testing during an epoch
                     acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set=validation_name)
                     logger.info("{}\t{}\n".format(nb_tr_steps,acc))
                     model.train()
@@ -494,7 +506,14 @@ def main():
                     best_accuracy = max(best_accuracy,updated_accuracy)
                     if acc>best_accuracy:
                         best_accuracy = acc
-            acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set = validation_name)
+                        torch.save(model.state_dict(), os.path.join(args.output_dir, "best_model"))
+                        with open(os.path.join(args.output_dir,"best_accuracy.txt"),'w') as f1_report:
+                            f1_report.write("{}".format(best_accuracy))
+            if validation_name=="all":
+                acc = (test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set = "gap-dev") +\
+                        test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set = "winobias-dev"))/2
+            else:
+                acc = test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps if nb_tr_steps>0 else 0, test_set = validation_name)
             logger.info("{}\t{}\n".format(nb_tr_steps,acc))
             model.train()
             try:
@@ -513,8 +532,16 @@ def main():
         model.load_state_dict(model_dict)
 
     if args.do_eval and (args.local_rank == -1 or torch.distributed.get_rank() == 0):
+        print("GAP-test: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="gap-test"))
+        print("DPR/WSCR-test: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="dpr-test"))
         print("WSC: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="wsc"))
+        print("WinoGender: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winogender"))
         _=test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="wnli")
+        print("PDP: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="pdp"))
+        print("WinoBias Anti Stereotyped Type 1: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winobias-anti1"))
+        print("WinoBias Pro Stereotyped Type 1: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winobias-pro1"))
+        print("WinoBias Anti Stereotyped Type 2: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winobias-anti2"))
+        print("WinoBias Pro Stereotyped Type 2: ",test(processor, args, tokenizer, model, device, global_step = global_step, tr_loss = tr_loss/nb_tr_steps, test_set="winobias-pro2"))
 
 if __name__ == "__main__":
     main()

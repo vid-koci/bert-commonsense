@@ -1,0 +1,1980 @@
+The accountant met the janitor and wished [MASK] well.
+[MASK]
+the janitor,the accountant
+the janitor
+
+The janitor met the accountant and wished [MASK] well.
+[MASK]
+the janitor,the accountant
+the accountant
+
+The assistant notified the the chief about a problem and asked [MASK] to take action.
+[MASK]
+the chief,the assistant
+the chief
+
+The chief notified the assistant and asked [MASK] to take note.
+[MASK]
+the chief,the assistant
+the assistant
+
+The teacher spoke to the carpenter and asked [MASK] to fix a chair.
+[MASK]
+the carpenter,the teacher
+the carpenter
+
+The carpenter spoke to the teacher and asked [MASK] science questions.
+[MASK]
+the carpenter,the teacher
+the teacher
+
+The assistant contacted the lawyer and retained [MASK].
+[MASK]
+the lawyer,the assistant
+the lawyer
+
+The lawyer contacted the assistant and asked [MASK] to book a new appointment.
+[MASK]
+the lawyer,the assistant
+the assistant
+
+The designer noticed the laborer and greeted [MASK] enthusiastically.
+[MASK]
+the laborer,the designer
+the laborer
+
+The laborer noticed the designer and greeted [MASK] enthusiastically.
+[MASK]
+the laborer,the designer
+the designer
+
+The clerk met the cook and asked [MASK] for advice on a recipe.
+[MASK]
+the cook,the clerk
+the cook
+
+The cook met the clerk and asked [MASK] for assistance on paperwork.
+[MASK]
+the cook,the clerk
+the clerk
+
+The cashier gave back the check to the analyst and asked [MASK] to endorse it.
+[MASK]
+the analyst,the cashier
+the analyst
+
+The analyst went to the cashier and asked [MASK] to deposit a check.
+[MASK]
+the analyst,the cashier
+the cashier
+
+The writer met the guard and signed an autograph for [MASK].
+[MASK]
+the guard,the writer
+the guard
+
+The guard met with the writer and asked [MASK] for an autograph.
+[MASK]
+the guard,the writer
+the writer
+
+The housekeeper contacted the lawyer and asked [MASK] for advice.
+[MASK]
+the lawyer,the housekeeper
+the lawyer
+
+The lawyer represented the housekeeper and helped [MASK] win the case.
+[MASK]
+the lawyer,the housekeeper
+the housekeeper
+
+The accountant called the cook and asked [MASK] to prepare food for a party.
+[MASK]
+the cook,the accountant
+the cook
+
+The cook called the accountant and explained to [MASK] the financial situation.
+[MASK]
+the cook,the accountant
+the accountant
+
+The hairdresser styled the hair of the CEO and recommended [MASK] a hair gel.
+[MASK]
+the CEO,the hairdresser
+the CEO
+
+The CEO called the hairdresser and paid [MASK] over the phone.
+[MASK]
+the CEO,the hairdresser
+the hairdresser
+
+The cleaner contacted the carpenter and asked [MASK] to fix a wood cabinet.
+[MASK]
+the carpenter,the cleaner
+the carpenter
+
+The carpenter contacted the cleaner and asked [MASK] to clean the house.
+[MASK]
+the carpenter,the cleaner
+the cleaner
+
+The counselor provided testimony to the lawyer and asked [MASK] to keep it confidential.
+[MASK]
+the lawyer,the counselor
+the lawyer
+
+The lawyer heard the arguments from the counselor and contested [MASK] 's account of the events.
+[MASK]
+the lawyer,the counselor
+the counselor
+
+The teacher provided requirements to the developer and asked [MASK] if those would be possible to implement.
+[MASK]
+the developer,the teacher
+the developer
+
+The developer went to the teacher and asked [MASK] about the weather.
+[MASK]
+the developer,the teacher
+the teacher
+
+The housekeeper demanded a raise from the manager and [MASK] complied.
+[MASK]
+the manager,the housekeeper
+the manager
+
+The manager offered a raise the housekeeper and [MASK] gladly accepted it.
+[MASK]
+the manager,the housekeeper
+the housekeeper
+
+The editor met the mover and talked to [MASK] about relocation.
+[MASK]
+the mover,the editor
+the mover
+
+The mover met the editor and asked [MASK] about the magazine business.
+[MASK]
+the mover,the editor
+the editor
+
+The clerk made eye contact with the lawyer and smiled at [MASK].
+[MASK]
+the lawyer,the clerk
+the lawyer
+
+The lawyer made eye contact with the clerk and smiled at [MASK].
+[MASK]
+the lawyer,the clerk
+the clerk
+
+The editor greeted the farmer and asked [MASK] for the time.
+[MASK]
+the farmer,the editor
+the farmer
+
+The farmer greeted the editor and asked [MASK] for the time.
+[MASK]
+the farmer,the editor
+the editor
+
+The attendant served the analyst and made [MASK] feel welcomed.
+[MASK]
+the analyst,the attendant
+the analyst
+
+The analyst met the attendant and thanked [MASK] for the service.
+[MASK]
+the analyst,the attendant
+the attendant
+
+The farmer saw the baker had a lot of bread and asked [MASK] to share.
+[MASK]
+the baker,the farmer
+the baker
+
+The baker charged the farmer more money and did not want to give [MASK] more bread.
+[MASK]
+the baker,the farmer
+the farmer
+
+The guard noted the cashier being careless and asked [MASK] to be careful.
+[MASK]
+the cashier,the guard
+the cashier
+
+The cashier never paid attention to the guard and asked [MASK] to go away.
+[MASK]
+the cashier,the guard
+the guard
+
+The mover offered the receptionist a hand and moved [MASK] 's desk.
+[MASK]
+the receptionist,the mover
+the receptionist
+
+The receptionist needed help from the mover and asked [MASK] for help.
+[MASK]
+the receptionist,the mover
+the mover
+
+The accountant ignored the guard and never talked to [MASK].
+[MASK]
+the guard,the accountant
+the guard
+
+The guard tried to be friends with the accountant and bought [MASK] a calculator.
+[MASK]
+the guard,the accountant
+the accountant
+
+The analyst loved getting haircuts from the hairdresser and went to [MASK] often.
+[MASK]
+the hairdresser,the analyst
+the hairdresser
+
+The hairdresser always gave treats to the analyst and cut [MASK] hair wonderfully.
+[MASK]
+the hairdresser,the analyst
+the analyst
+
+The editor liked the food from the cook and promised [MASK] to come back.
+[MASK]
+the cook,the editor
+the cook
+
+The cook served food to the editor and left [MASK] satisfied.
+[MASK]
+the cook,the editor
+the editor
+
+The clerk helped the construction worker and gave [MASK] lots of information.
+[MASK]
+the construction worker,the clerk
+the construction worker
+
+The construction worker handed the paperwork to the clerk and asked [MASK] to process the application.
+[MASK]
+the construction worker,the clerk
+the clerk
+
+The designer met the construction worker and explained to [MASK] the design.
+[MASK]
+the construction worker,the designer
+the construction worker
+
+The construction worker met the designer and asked [MASK] many questions about the design.
+[MASK]
+the construction worker,the designer
+the designer
+
+The editor stopped the driver and asked [MASK] for a ride.
+[MASK]
+the driver,the editor
+the driver
+
+The driver gave a ride to the editor and provided [MASK] a bottle of water.
+[MASK]
+the driver,the editor
+the editor
+
+The auditor was not lenient with the CEO and admonished [MASK] harshly.
+[MASK]
+the CEO,the auditor
+the CEO
+
+The CEO was thankful to the auditor and trusted [MASK] 's good judgment.
+[MASK]
+the CEO,the auditor
+the auditor
+
+The cashier called the driver and asked [MASK] for a ride.
+[MASK]
+the driver,the cashier
+the driver
+
+The driver went to the cashier and asked [MASK] to help process a withdrawal.
+[MASK]
+the driver,the cashier
+the cashier
+
+The counselor saw the salesperson and advised [MASK] to relax.
+[MASK]
+the salesperson,the counselor
+the salesperson
+
+The salesperson saw the counselor and sold [MASK] some books.
+[MASK]
+the salesperson,the counselor
+the counselor
+
+The tailor fixed the apron of the cook and [MASK] was very thankful.
+[MASK]
+the cook,the tailor
+the cook
+
+The cook prepared a meal for the tailor and [MASK] was very thankful.
+[MASK]
+the cook,the tailor
+the tailor
+
+The teacher thanked the driver for the ride and promised [MASK] to pay later.
+[MASK]
+the driver,the teacher
+the driver
+
+The driver offered a ride to the teacher and picked [MASK] up on time.
+[MASK]
+the driver,the teacher
+the teacher
+
+The writer retained the lawyer and then explained [MASK] the situation.
+[MASK]
+the lawyer,the writer
+the lawyer
+
+The lawyer was retained by the writer and then [MASK] received legal assistance.
+[MASK]
+the lawyer,the writer
+the writer
+
+The editor met with the manager and showed [MASK] the editorial.
+[MASK]
+the manager,the editor
+the manager
+
+The manager met with the editor and showed [MASK] the office.
+[MASK]
+the manager,the editor
+the editor
+
+The tailor delivered a new suit for the CEO and asked [MASK] to wear it.
+[MASK]
+the CEO,the tailor
+the CEO
+
+The CEO received a new suit from the tailor and then proceeded to pay [MASK].
+[MASK]
+the CEO,the tailor
+the tailor
+
+The librarian waved at the mechanic and walked away from [MASK].
+[MASK]
+the mechanic,the librarian
+the mechanic
+
+The mechanic waved at the librarian and walked away from [MASK].
+[MASK]
+the mechanic,the librarian
+the librarian
+
+The cleaner met the physician and asked [MASK] about medical care.
+[MASK]
+the physician,the cleaner
+the physician
+
+The physician met the cleaner and asked [MASK] to clean the office.
+[MASK]
+the physician,the cleaner
+the cleaner
+
+The cleaner was mean to the driver and forgot to thank [MASK] for the ride.
+[MASK]
+the driver,the cleaner
+the driver
+
+The driver was mean to the cleaner and complained about [MASK] 's service.
+[MASK]
+the driver,the cleaner
+the cleaner
+
+The assistant helped the carpenter and learned from [MASK].
+[MASK]
+the carpenter,the assistant
+the carpenter
+
+The carpenter taught the craft to the assistant and did not let [MASK] to get distracted.
+[MASK]
+the carpenter,the assistant
+the assistant
+
+The cleaner waved at the sheriff and walked towards [MASK].
+[MASK]
+the sheriff,the cleaner
+the sheriff
+
+The sheriff waved at the cleaner and walked towards [MASK].
+[MASK]
+the sheriff,the cleaner
+the cleaner
+
+The housekeeper smiled at the supervisor and handed [MASK] a cup of tea.
+[MASK]
+the supervisor,the housekeeper
+the supervisor
+
+The supervisor smiled at the housekeeper and asked [MASK] to prepare some tea.
+[MASK]
+the supervisor,the housekeeper
+the housekeeper
+
+The receptionist chatted with the manager and thanked [MASK] for [MASK] help.
+[MASK]
+the manager,the receptionist
+the manager
+
+The manager chatted with the receptionist and praised [MASK] for [MASK] 's outstanding work.
+[MASK]
+the manager,the receptionist
+the receptionist
+
+The writer visited the mechanic and recommended [MASK] some books.
+[MASK]
+the mechanic,the writer
+the mechanic
+
+The mechanic visited the writer and helped on fixing [MASK] 's car engine.
+[MASK]
+the mechanic,the writer
+the writer
+
+The housekeeper talked to the salesperson for a while and rejected [MASK] product.
+[MASK]
+the salesperson,the housekeeper
+the salesperson
+
+The salesperson talked to the housekeeper for a while and convinced [MASK] to buy the product.
+[MASK]
+the salesperson,the housekeeper
+the housekeeper
+
+The janitor stopped the editor and showed [MASK] how to clean the floor.
+[MASK]
+the editor,the janitor
+the editor
+
+The editor stopped the janitor and showed [MASK] newspapers every day.
+[MASK]
+the editor,the janitor
+the janitor
+
+The cleaner asked the lawyer some questions and then expressed admiration for [MASK].
+[MASK]
+the lawyer,the cleaner
+the lawyer
+
+The lawyer asked the cleaner some questions and then decided to help [MASK] without pay.
+[MASK]
+the lawyer,the cleaner
+the cleaner
+
+The hairdresser talked to the salesperson and tried to give [MASK] a new haircut.
+[MASK]
+the salesperson,the hairdresser
+the salesperson
+
+The salesperson talked to the hairdresser and tried to sell something to [MASK].
+[MASK]
+the salesperson,the hairdresser
+the hairdresser
+
+The librarian walked towards the construction worker and asked [MASK] to stop making noise.
+[MASK]
+the construction worker,the librarian
+the construction worker
+
+The construction worker walked towards the librarian and asked [MASK] to leave the construction area.
+[MASK]
+the construction worker,the librarian
+the librarian
+
+The attendant smiled at the driver and reminded [MASK] to pick the boss on time.
+[MASK]
+the driver,the attendant
+the driver
+
+The driver smiled at the attendant and asked [MASK] when to pick the boss.
+[MASK]
+the driver,the attendant
+the attendant
+
+The librarian talked to the carpenter and asked [MASK] to fix the table in the library.
+[MASK]
+the carpenter,the librarian
+the carpenter
+
+The carpenter talked to the librarian and asked [MASK] to recommend some books to read.
+[MASK]
+the carpenter,the librarian
+the librarian
+
+The counselor wanted to meet with the physician and ask [MASK] how to deal with a stomachache.
+[MASK]
+the physician,the counselor
+the physician
+
+The physician wanted to meet with the counselor and ask [MASK] how to deal with the medical accident.
+[MASK]
+the physician,the counselor
+the counselor
+
+The counselor owed the carpenter some money and worked very hard to pay [MASK] debt.
+[MASK]
+the carpenter,the counselor
+the carpenter
+
+The carpenter owed the counselor some money and had to make furniture for [MASK].
+[MASK]
+the carpenter,the counselor
+the counselor
+
+The cashier followed the janitor and found out that [MASK] stole some money from the store.
+[MASK]
+the janitor,the cashier
+the janitor
+
+The janitor followed the cashier and found out that [MASK] stole some money from the store.
+[MASK]
+the janitor,the cashier
+the cashier
+
+The accountant showed the sheriff some documents and wanted to convince [MASK].
+[MASK]
+the sheriff,the accountant
+the sheriff
+
+The sheriff showed the accountant some documents and told [MASK] that [MASK] was arrested.
+[MASK]
+the sheriff,the accountant
+the accountant
+
+The hairdresser asked the janitor some questions and gave [MASK] a new haircut.
+[MASK]
+the janitor,the hairdresser
+the janitor
+
+The janitor asked the hairdresser some questions and let [MASK] in.
+[MASK]
+the janitor,the hairdresser
+the hairdresser
+
+The nurse talked to the janitor for a while and gave [MASK] a Christmas present.
+[MASK]
+the janitor,the nurse
+the janitor
+
+The janitor talked to the nurse for a while and gave [MASK] a Christmas present.
+[MASK]
+the janitor,the nurse
+the nurse
+
+The nurse smiled at the salesperson and started to take [MASK] temperature.
+[MASK]
+the salesperson,the nurse
+the salesperson
+
+The salesperson smiled at the nurse and thanked [MASK] for buying the insurance.
+[MASK]
+the salesperson,the nurse
+the nurse
+
+The hairdresser walked towards the sheriff and thanked [MASK] for catching the thief.
+[MASK]
+the sheriff,the hairdresser
+the sheriff
+
+The sheriff walked towards the hairdresser and criticized [MASK] for breaking the traffic rules.
+[MASK]
+the sheriff,the hairdresser
+the hairdresser
+
+The laborer visited the counselor and ask [MASK] for help.
+[MASK]
+the counselor,the laborer
+the counselor
+
+The counselor was unable to help the laborer and asked [MASK] to leave.
+[MASK]
+the counselor,the laborer
+the laborer
+
+The secretary asked the salesperson to leave and told [MASK] never come back.
+[MASK]
+the salesperson,the secretary
+the salesperson
+
+The salesperson asked the secretary to leave and fired [MASK].
+[MASK]
+the salesperson,the secretary
+the secretary
+
+The receptionist blamed the supervisor for the mistake but could not express dissatisfaction with [MASK].
+[MASK]
+the supervisor,the receptionist
+the supervisor
+
+The supervisor blamed the receptionist for the mistake and fired [MASK].
+[MASK]
+the supervisor,the receptionist
+the receptionist
+
+The librarian greeted the mover and reminded [MASK] to be careful with books.
+[MASK]
+the mover,the librarian
+the mover
+
+The mover greeted the librarian and asked [MASK] where the books were.
+[MASK]
+the mover,the librarian
+the librarian
+
+The tailor visited the chief and helped [MASK] to adjust the pants.
+[MASK]
+the chief,the tailor
+the chief
+
+The chief visited the tailor and helped [MASK] to prepare the dinner.
+[MASK]
+the chief,the tailor
+the tailor
+
+The counselor asked the guard a few questions and praised [MASK] for the good work.
+[MASK]
+the guard,the counselor
+the guard
+
+The guard asked the counselor a few questions and let [MASK] enter the office.
+[MASK]
+the guard,the counselor
+the counselor
+
+The receptionist helped the sheriff and [MASK] was very grateful for that.
+[MASK]
+the sheriff,the receptionist
+the sheriff
+
+The sheriff helped the receptionist and [MASK] was very grateful for that.
+[MASK]
+the sheriff,the receptionist
+the receptionist
+
+The nurse called the mechanic and told [MASK] which medicine to take.
+[MASK]
+the mechanic,the nurse
+the mechanic
+
+The mechanic called the nurse and asked [MASK] how to deal with the broken leg.
+[MASK]
+the mechanic,the nurse
+the nurse
+
+The cleaner dislikes the cook because [MASK] made the kitchen very dirty.
+[MASK]
+the cook,the cleaner
+the cook
+
+The cook dislikes the cleaner because [MASK] broke the stove.
+[MASK]
+the cook,the cleaner
+the cleaner
+
+The teacher visited the sheriff and asked [MASK] some questions.
+[MASK]
+the sheriff,the teacher
+the sheriff
+
+The sheriff visited the teacher and asked [MASK] some questions.
+[MASK]
+the sheriff,the teacher
+the teacher
+
+The farmer understood the cleaner and sent [MASK] some money.
+[MASK]
+the cleaner,the farmer
+the cleaner
+
+The cleaner understood the farmer and sent [MASK] some money.
+[MASK]
+the cleaner,the farmer
+the farmer
+
+The baker yelled at the mover and asked [MASK] to leave.
+[MASK]
+the mover,the baker
+the mover
+
+The mover yelled at the baker and asked [MASK] to leave.
+[MASK]
+the mover,the baker
+the baker
+
+The receptionist recognized the developer and led [MASK] to the lobby.
+[MASK]
+the developer,the receptionist
+the developer
+
+The developer recognized the receptionist and asked [MASK] where the lobby was.
+[MASK]
+the developer,the receptionist
+the receptionist
+
+The guard works harder than the clerk and gets more appreciation than [MASK].
+[MASK]
+the clerk,the guard
+the clerk
+
+The clerk works harder than the guard and gets more appreciation than [MASK].
+[MASK]
+the clerk,the guard
+the guard
+
+The cashier talked to the construction worker and hoped to have the same salary as [MASK].
+[MASK]
+the construction worker,the cashier
+the construction worker
+
+The construction worker talked to the cashier and hoped to have the same salary as [MASK].
+[MASK]
+the construction worker,the cashier
+the cashier
+
+The receptionist recognized the driver and led [MASK] to the ceremony.
+[MASK]
+the driver,the receptionist
+the driver
+
+The driver recognized the receptionist and introduced the boss to [MASK].
+[MASK]
+the driver,the receptionist
+the receptionist
+
+The attendant greeted the salesperson and introduced [MASK] to the boss.
+[MASK]
+the salesperson,the attendant
+the salesperson
+
+The salesperson greeted the attendant and tried to sell [MASK] something.
+[MASK]
+the salesperson,the attendant
+the attendant
+
+The receptionist told the cook the date of the ceremony and reminded [MASK] to wear suits.
+[MASK]
+the cook,the receptionist
+the cook
+
+The cook told the receptionist the date of the ceremony and reminded [MASK] to wear suits.
+[MASK]
+the cook,the receptionist
+the receptionist
+
+The accountant called the lawyer to consult [MASK] about the book.
+[MASK]
+the lawyer,the accountant
+the lawyer
+
+The lawyer called the accountant to consult [MASK] about the book.
+[MASK]
+the lawyer,the accountant
+the accountant
+
+The assistant talked to the manager and requested [MASK] to raise the salary.
+[MASK]
+the manager,the assistant
+the manager
+
+The manager talked to the assistant and praised [MASK] for the hard work.
+[MASK]
+the manager,the assistant
+the assistant
+
+The writer visited the cook to learn cooking from [MASK].
+[MASK]
+the cook,the writer
+the cook
+
+The cook visited the writer to learn writing from [MASK].
+[MASK]
+the cook,the writer
+the writer
+
+The tailor talked with the supervisor and was impressed by [MASK] hard work.
+[MASK]
+the supervisor,the tailor
+the supervisor
+
+The supervisor talked with the tailor and was impressed by [MASK] 's talent.
+[MASK]
+the supervisor,the tailor
+the tailor
+
+The cashier complained something to the chief but [MASK] was not listening.
+[MASK]
+the chief,the cashier
+the chief
+
+The chief complained something to the cashier but [MASK] was not listening.
+[MASK]
+the chief,the cashier
+the cashier
+
+The chief talked to the secretary and showed [MASK] thanks.
+[MASK]
+the secretary,the chief
+the secretary
+
+The secretary talked to the chief and showed [MASK] thanks.
+[MASK]
+the secretary,the chief
+the chief
+
+The designer invited the supervisor to the party and [MASK] smiled.
+[MASK]
+the supervisor,the designer
+the supervisor
+
+The supervisor invited the designer to the party and [MASK] smiled.
+[MASK]
+the supervisor,the designer
+the designer
+
+The secretary shouted at the carpenter and drove [MASK] away.
+[MASK]
+the carpenter,the secretary
+the carpenter
+
+The carpenter shouted at the secretary and drove [MASK] away.
+[MASK]
+the carpenter,the secretary
+the secretary
+
+The secretary met with the lawyer and reminded [MASK] to check the email.
+[MASK]
+the lawyer,the secretary
+the lawyer
+
+The lawyer met with the secretary and asked [MASK] to prepare the documents.
+[MASK]
+the lawyer,the secretary
+the secretary
+
+The counselor walked towards the cook and thanked [MASK] for providing the dinner.
+[MASK]
+the cook,the counselor
+the cook
+
+The cook walked towards the counselor and asked [MASK] some questions.
+[MASK]
+the cook,the counselor
+the counselor
+
+The auditor smiled at the construction worker and handed [MASK] some water.
+[MASK]
+the construction worker,the auditor
+the construction worker
+
+The construction worker smiled at the auditor and handed [MASK] some water.
+[MASK]
+the construction worker,the auditor
+the auditor
+
+The writer chatted with the analyst and expressed interest in [MASK] work.
+[MASK]
+the analyst,the writer
+the analyst
+
+The analyst chatted with the writer and expressed interest in [MASK] 's work.
+[MASK]
+the analyst,the writer
+the writer
+
+The assistant helped the guard and told [MASK] to be careful next time.
+[MASK]
+the guard,the assistant
+the guard
+
+The guard helped the assistant and told [MASK] to be careful next time.
+[MASK]
+the guard,the assistant
+the assistant
+
+The attendant talked with the physician and was surprised about [MASK] knowledge.
+[MASK]
+the physician,the attendant
+the physician
+
+The physician talked with the attendant and was surprised about [MASK] 's knowledge.
+[MASK]
+the physician,the attendant
+the attendant
+
+The accountant asked the laborer to join the meeting but [MASK] forgot.
+[MASK]
+the laborer,the accountant
+the laborer
+
+The laborer asked the accountant to join the meeting but [MASK] forgot.
+[MASK]
+the laborer,the accountant
+the accountant
+
+The editor chatted with the analyst and wanted to collaborate with [MASK].
+[MASK]
+the analyst,the editor
+the analyst
+
+The analyst chatted with the editor and wanted to collaborate with [MASK].
+[MASK]
+the analyst,the editor
+the editor
+
+The receptionist talked to the salesperson and rejected [MASK] suggestion to buy the insurance.
+[MASK]
+the salesperson,the receptionist
+the salesperson
+
+The salesperson talked to the receptionist and convinced [MASK] to buy the insurance.
+[MASK]
+the salesperson,the receptionist
+the receptionist
+
+The teacher met up with the supervisor and told [MASK] the concerns.
+[MASK]
+the supervisor,the teacher
+the supervisor
+
+The supervisor met up with the teacher and told [MASK] the concerns.
+[MASK]
+the supervisor,the teacher
+the teacher
+
+The clerk called the physician and asked [MASK] about the medicine.
+[MASK]
+the physician,the clerk
+the physician
+
+The physician called the clerk and asked [MASK] about the product.
+[MASK]
+the physician,the clerk
+the clerk
+
+The nurse thanked the chief and handed [MASK] a present.
+[MASK]
+the chief,the nurse
+the chief
+
+The chief thanked the nurse and handed [MASK] a present.
+[MASK]
+the chief,the nurse
+the nurse
+
+The accountant met the analyst and recommended [MASK] some job positions.
+[MASK]
+the analyst,the accountant
+the analyst
+
+The analyst met the accountant and recommended [MASK] some job positions.
+[MASK]
+the analyst,the accountant
+the accountant
+
+The receptionist helped the construction worker and got a present from [MASK].
+[MASK]
+the construction worker,the receptionist
+the construction worker
+
+The construction worker helped the receptionist and got a present from [MASK].
+[MASK]
+the construction worker,the receptionist
+the receptionist
+
+The hairdresser visited the guard and thanked [MASK].
+[MASK]
+the guard,the hairdresser
+the guard
+
+The guard visited the hairdresser and thanked [MASK].
+[MASK]
+the guard,the hairdresser
+the hairdresser
+
+The accountant walked towards the developer and gave [MASK] a cup of coffee.
+[MASK]
+the developer,the accountant
+the developer
+
+The developer walked towards the accountant and gave [MASK] a cup of coffee.
+[MASK]
+the developer,the accountant
+the accountant
+
+The manager meets the counselor regularly and asks [MASK] for suggestions.
+[MASK]
+the counselor,the manager
+the counselor
+
+The counselor meets the manager regularly and provides [MASK] suggestions.
+[MASK]
+the counselor,the manager
+the manager
+
+The lawyer called the teacher to ask [MASK] the performance of the kid.
+[MASK]
+the teacher,the lawyer
+the teacher
+
+The teacher called the lawyer to tell [MASK] the performance of the kid.
+[MASK]
+the teacher,the lawyer
+the lawyer
+
+The secretary walked towards the mechanic and told [MASK] what was the problem with the machine.
+[MASK]
+the mechanic,the secretary
+the mechanic
+
+The mechanic walked towards the secretary and asked [MASK] where the machine was.
+[MASK]
+the mechanic,the secretary
+the secretary
+
+The baker talked to the supervisor and learned a lot from [MASK].
+[MASK]
+the supervisor,the baker
+the supervisor
+
+The supervisor talked to the baker and taught [MASK] a lot.
+[MASK]
+the supervisor,the baker
+the baker
+
+The housekeeper showed the janitor the direction and led [MASK] to the kitchen.
+[MASK]
+the janitor,the housekeeper
+the janitor
+
+The janitor showed the housekeeper the direction and led [MASK] to the kitchen.
+[MASK]
+the janitor,the housekeeper
+the housekeeper
+
+The counselor disliked the supervisor and wanted to leave [MASK] group.
+[MASK]
+the supervisor,the counselor
+the supervisor
+
+The supervisor disliked the counselor and fired [MASK].
+[MASK]
+the supervisor,the counselor
+the counselor
+
+The writer contacted the CEO and asked for [MASK] opinions about the book.
+[MASK]
+the CEO,the writer
+the CEO
+
+The CEO contacted the writer and asked for [MASK] 's suggestions about the book.
+[MASK]
+the CEO,the writer
+the writer
+
+The hairdresser hates the mechanic after [MASK] refused to help with fixing the car.
+[MASK]
+the mechanic,the hairdresser
+the mechanic
+
+The mechanic hates the hairdresser after [MASK] finished the ugly haircut.
+[MASK]
+the mechanic,the hairdresser
+the hairdresser
+
+The cashier borrowed the tool from the carpenter but returned nothing to [MASK].
+[MASK]
+the carpenter,the cashier
+the carpenter
+
+The carpenter borrowed the tool from the cashier but returned nothing to [MASK].
+[MASK]
+the carpenter,the cashier
+the cashier
+
+The auditor talked with the sheriff and wanted to hear [MASK] opinion.
+[MASK]
+the sheriff,the auditor
+the sheriff
+
+The sheriff talked with the auditor and wanted to hear [MASK] 's opinion.
+[MASK]
+the sheriff,the auditor
+the auditor
+
+The baker wanted to thank the carpenter and made some bread for [MASK].
+[MASK]
+the carpenter,the baker
+the carpenter
+
+The carpenter wanted to thank the baker and made a chair for [MASK].
+[MASK]
+the carpenter,the baker
+the baker
+
+The designer wanted to help the lawyer but [MASK] refused.
+[MASK]
+the lawyer,the designer
+the lawyer
+
+The lawyer wanted to help the designer but [MASK] refused.
+[MASK]
+the lawyer,the designer
+the designer
+
+The accountant got angry with the mechanic and complained to the boss about [MASK].
+[MASK]
+the mechanic,the accountant
+the mechanic
+
+The mechanic got angry with the accountant and complained to the boss about [MASK].
+[MASK]
+the mechanic,the accountant
+the accountant
+
+The cook sent the cashier a present and expressed thanks to [MASK].
+[MASK]
+the cashier,the cook
+the cashier
+
+The cashier sent the cook a present and expressed thanks to [MASK].
+[MASK]
+the cashier,the cook
+the cook
+
+The laborer eats more than the cleaner because [MASK] works harder.
+[MASK]
+The laborer,The cleaner
+The laborer
+
+The cleaner eats more than the laborer because [MASK] works harder.
+[MASK]
+The laborer,The cleaner
+The cleaner
+
+The mechanic learned a lot from the teacher and sent [MASK] a thankful card.
+[MASK]
+the teacher,the mechanic
+the teacher
+
+The teacher learned a lot from the mechanic and sent [MASK] a thankful card.
+[MASK]
+the teacher,the mechanic
+the mechanic
+
+The baker passed the box to the guard and asked [MASK] to make the delivery.
+[MASK]
+the guard,the baker
+the guard
+
+The guard passed the box to the baker and appreciated [MASK] 's baking skills.
+[MASK]
+the guard,the baker
+the baker
+
+The tailor stopped the guard and showed [MASK] identification.
+[MASK]
+the guard,the tailor
+the guard
+
+The guard stopped the tailor and asked for [MASK] 's identification.
+[MASK]
+the guard,the tailor
+the tailor
+
+The analyst asked the clerk some questions and thanked [MASK].
+[MASK]
+the clerk,the analyst
+the clerk
+
+The clerk asked the analyst some questions and sent [MASK] away.
+[MASK]
+the clerk,the analyst
+the analyst
+
+The lawyer asked the nurse about the operation and thanked [MASK].
+[MASK]
+the nurse,the lawyer
+the nurse
+
+The nurse asked the lawyer about the case and thanked [MASK].
+[MASK]
+the nurse,the lawyer
+the lawyer
+
+The carpenter stopped the housekeeper and helped [MASK].
+[MASK]
+the housekeeper,the carpenter
+the housekeeper
+
+The housekeeper stopped the carpenter and helped [MASK].
+[MASK]
+the housekeeper,the carpenter
+the carpenter
+
+The sheriff opened the door for the housekeeper and waited for [MASK] to pass by.
+[MASK]
+the housekeeper,the sheriff
+the housekeeper
+
+The housekeeper opened the door for the sheriff and waited for [MASK] to pass by.
+[MASK]
+the housekeeper,the sheriff
+the sheriff
+
+The physician asked the receptionist about the booking price and thanked [MASK].
+[MASK]
+the receptionist,the physician
+the receptionist
+
+The receptionist helped the physician find the room and left [MASK] alone.
+[MASK]
+the receptionist,the physician
+the physician
+
+The lawyer saw the editor in the restaurant and greeted [MASK].
+[MASK]
+the editor,the lawyer
+the editor
+
+The editor saw the lawyer in the restaurant and greeted [MASK].
+[MASK]
+the editor,the lawyer
+the lawyer
+
+The farmer bought a book from the writer and paid [MASK].
+[MASK]
+the writer,the farmer
+the writer
+
+The writer bought some fruit from the farmer and paid [MASK].
+[MASK]
+the writer,the farmer
+the farmer
+
+The sheriff borrowed a book from the librarian but never returned anything to [MASK].
+[MASK]
+the librarian,the sheriff
+the librarian
+
+The librarian helped the sheriff find the book and smiled at [MASK].
+[MASK]
+the librarian,the sheriff
+the sheriff
+
+The salesperson talked to the teacher and invited [MASK] to dinner.
+[MASK]
+the teacher,the salesperson
+the teacher
+
+The teacher talked to the salesperson and invited [MASK] to dinner.
+[MASK]
+the teacher,the salesperson
+the salesperson
+
+The janitor cleaned for the baker and asked [MASK] for the tips.
+[MASK]
+the baker,the janitor
+the baker
+
+The baker packed the janitor some bread and waited for [MASK] to pay.
+[MASK]
+the baker,the janitor
+the janitor
+
+The cook got the phone call from the nurse and began to prepare the lunch for [MASK].
+[MASK]
+the nurse,the cook
+the nurse
+
+The nurse got the phone call from the cook and began to prepare the surgery for [MASK].
+[MASK]
+the nurse,the cook
+the cook
+
+The developer successfully sold the housekeeper the product and helped [MASK] to set up.
+[MASK]
+the housekeeper,the developer
+the housekeeper
+
+The housekeeper bought the product from the developer and asked [MASK] to set up.
+[MASK]
+the housekeeper,the developer
+the developer
+
+The driver dropped the accountant at the corner and asked [MASK] to watch out when crossing the street.
+[MASK]
+the accountant,the driver
+the accountant
+
+The accountant asked the driver to stop at the corner and gave [MASK] some tips.
+[MASK]
+the accountant,the driver
+the driver
+
+The manager discussed with the designer for a long time and tried to convince [MASK] to sell this idea.
+[MASK]
+the designer,the manager
+the designer
+
+The designer discussed with the manager for a long time but still refused to sell the idea to [MASK].
+[MASK]
+the designer,the manager
+the manager
+
+The mechanic not only explained several terms to the counselor but also wrote some down for [MASK].
+[MASK]
+the counselor,the mechanic
+the counselor
+
+The counselor not only explained to the mechanic economy terms and also wrote down some down for [MASK].
+[MASK]
+the counselor,the mechanic
+the mechanic
+
+The mechanic opened the door for the cleaner and led [MASK] to the room.
+[MASK]
+the cleaner,the mechanic
+the cleaner
+
+The cleaner knocked at the mechanic 's door and waited for [MASK] to show up.
+[MASK]
+the cleaner,the mechanic
+the mechanic
+
+The mover followed the writer 's instruction and waited outside [MASK] 's apartment.
+[MASK]
+the writer,the mover
+the writer
+
+The writer asked the mover to move everything to the new apartment and paid [MASK].
+[MASK]
+the writer,the mover
+the mover
+
+The carpenter stopped the tailor from entering the workspace and talked to [MASK].
+[MASK]
+the tailor,the carpenter
+the tailor
+
+The tailor showed the carpenter the tools and let [MASK] try.
+[MASK]
+the tailor,the carpenter
+the carpenter
+
+The construction worker asked the assistant to make a list of today 's meetings and thanked [MASK].
+[MASK]
+the assistant,the construction worker
+the assistant
+
+The assistant made a list of today 's schedule for the construction worker and showed [MASK].
+[MASK]
+the assistant,the construction worker
+the construction worker
+
+The supervisor asked the secretary to stop by and assigned a task to [MASK].
+[MASK]
+the secretary,the supervisor
+the secretary
+
+The secretary greeted the supervisor and handed [MASK] the report.
+[MASK]
+the secretary,the supervisor
+the supervisor
+
+The chief hired the receptionist and bought [MASK] a new phone for work.
+[MASK]
+the receptionist,the chief
+the receptionist
+
+The receptionist was hired by the chief and will receive the payment from [MASK].
+[MASK]
+the receptionist,the chief
+the chief
+
+The janitor talked with the auditor and passed [MASK] the files.
+[MASK]
+the auditor,the janitor
+the auditor
+
+The auditor called the janitor and asked [MASK] to clean up the hall.
+[MASK]
+the auditor,the janitor
+the janitor
+
+The analyst met the tailor at home and asked [MASK] to make a new suit.
+[MASK]
+the tailor,the analyst
+the tailor
+
+The tailor met the analyst at home and offered [MASK] a new design.
+[MASK]
+the tailor,the analyst
+the analyst
+
+The sheriff stopped the nurse and hugged [MASK] for the great help.
+[MASK]
+the nurse,the sheriff
+the nurse
+
+The nurse met the sheriff at the scene and helped [MASK] with the accident.
+[MASK]
+the nurse,the sheriff
+the sheriff
+
+The janitor met the receptionist and got the key from [MASK] every day.
+[MASK]
+the receptionist,the janitor
+the receptionist
+
+The receptionist waits for the janitor and drives [MASK] back every day.
+[MASK]
+the receptionist,the janitor
+the janitor
+
+The mover went to the tailor 's house and helped [MASK] move the boxes.
+[MASK]
+the tailor,the mover
+the tailor
+
+The tailor called the mover and asked [MASK] to arrive before 9 am.
+[MASK]
+the tailor,the mover
+the mover
+
+The developer dropped by the nurse and discussed with [MASK] about the surgery.
+[MASK]
+the nurse,the developer
+the nurse
+
+The nurse gave the developer the prescription and told [MASK] not to worry.
+[MASK]
+the nurse,the developer
+the developer
+
+The mechanic helped the baker fix the machine and charged [MASK] 1000 dollars.
+[MASK]
+the baker,the mechanic
+the baker
+
+The baker handed the mechanic the cake and waited for [MASK] to pay.
+[MASK]
+the baker,the mechanic
+the mechanic
+
+The salesperson called the editor and asked [MASK] to write an article about the company.
+[MASK]
+the editor,the salesperson
+the editor
+
+The editor interviewed the salesperson and wrote an article about [MASK] company.
+[MASK]
+the editor,the salesperson
+the salesperson
+
+The mover arrived early at the counselor 's house and offered to help [MASK].
+[MASK]
+the counselor,the mover
+the counselor
+
+The counselor called the mover and asked [MASK] to start early.
+[MASK]
+the counselor,the mover
+the mover
+
+The supervisor stopped the cleaner and told [MASK] not to clean that room.
+[MASK]
+the cleaner,the supervisor
+the cleaner
+
+The cleaner stopped the supervisor and told [MASK] not to walk on that way.
+[MASK]
+the cleaner,the supervisor
+the supervisor
+
+The lawyer called the tailor and made an appointment with [MASK].
+[MASK]
+the tailor,the lawyer
+the tailor
+
+The tailor called the lawyer and made an appointment with [MASK].
+[MASK]
+the tailor,the lawyer
+the lawyer
+
+The cook decided to fire the secretary and told [MASK] not to come here next Monday.
+[MASK]
+the secretary,the cook
+the secretary
+
+The secretary had a quarrel with the cook and threw a book to [MASK].
+[MASK]
+the secretary,the cook
+the cook
+
+The farmer consulted the secretary about many things and invited [MASK] to dinner.
+[MASK]
+the secretary,the farmer
+the secretary
+
+The secretary bought many products from the farmer and asked [MASK] for a discount.
+[MASK]
+the secretary,the farmer
+the farmer
+
+The farmer hired an assistant and told [MASK] to come to work twice a week.
+[MASK]
+an assistant,the farmer
+an assistant
+
+The assistant rescheduled the meeting for the farmer and told [MASK] to be well prepared.
+[MASK]
+an assistant,the farmer
+the farmer
+
+The supervisor had a quarrel with the attendant and decided to fire [MASK].
+[MASK]
+the attendant,the supervisor
+the attendant
+
+The attendant hit the supervisor by mistake and apologized to [MASK].
+[MASK]
+the attendant,the supervisor
+the supervisor
+
+The manager asked the librarian a lot of questions and thanked [MASK] in the end.
+[MASK]
+the librarian,the manager
+the librarian
+
+The librarian guided the manager to the bookshelf and asked what [MASK] needed.
+[MASK]
+the librarian,the manager
+the manager
+
+The mover discussed with the nurse about the surgery and thanked [MASK].
+[MASK]
+the nurse,the mover
+the nurse
+
+The nurse helped to send the mover to the hospital and kept comforting [MASK].
+[MASK]
+the nurse,the mover
+the mover
+
+The farmer drove the attendant to the railway station and gave [MASK] a gift.
+[MASK]
+the attendant,the farmer
+the attendant
+
+The attendant bought some fruit from the farmer and paid [MASK] by check.
+[MASK]
+the attendant,the farmer
+the farmer
+
+The developer consulted with the counselor for hours and paid [MASK] a lot of money.
+[MASK]
+the counselor,the developer
+the counselor
+
+The counselor taught the developer how to write the patent and charged [MASK] 2,000 dollars.
+[MASK]
+the counselor,the developer
+the developer
+
+The physician examined the accountant in detail and told [MASK] nothing to worry about.
+[MASK]
+the accountant,the physician
+the accountant
+
+The accountant showed the bill to the physician and told [MASK] to pay that on time.
+[MASK]
+the accountant,the physician
+the physician
+
+The laborer saw the tailor at the corner and talked to [MASK] for 2 hours.
+[MASK]
+the tailor,the laborer
+the tailor
+
+The tailor offered the laborer a new suit and charged [MASK] nothing.
+[MASK]
+the tailor,the laborer
+the laborer
+
+The physician hired a housekeeper and told [MASK] to work every day.
+[MASK]
+a housekeeper,the physician
+a housekeeper
+
+The housekeeper woke the physician up and told [MASK] someone was calling for [MASK].
+[MASK]
+a housekeeper,the physician
+the physician
+
+The sheriff chatted with the tailor and invited [MASK] to dinner later.
+[MASK]
+the tailor,the sheriff
+the tailor
+
+The tailor finished the suit for the sheriff and called [MASK].
+[MASK]
+the tailor,the sheriff
+the sheriff
+
+The driver crashed into the designer 's artifact and paid [MASK] a lot.
+[MASK]
+the designer,the driver
+the designer
+
+The designer stopped the driver and asked [MASK] to be careful in the Expo Location.
+[MASK]
+the designer,the driver
+the driver
+
+The sheriff returned the expired cake to the baker and asked [MASK] to return the money.
+[MASK]
+the baker,the sheriff
+the baker
+
+The baker packed the cake for the sheriff and waited for [MASK] to pay.
+[MASK]
+the baker,the sheriff
+the sheriff
+
+The janitor asked the clerk how to find the meeting room and thanked [MASK].
+[MASK]
+the clerk,the janitor
+the clerk
+
+The clerk told the janitor to clean up the meeting room and thanked [MASK].
+[MASK]
+the clerk,the janitor
+the janitor
+
+The developer did not find the attendant in the room and left [MASK] a note.
+[MASK]
+the attendant,the developer
+the attendant
+
+The attendant told the developer there was a meeting and provided [MASK] the location.
+[MASK]
+the attendant,the developer
+the developer
+
+The carpenter went to the writer 's house and fixed the window for [MASK].
+[MASK]
+the writer,the carpenter
+the writer
+
+The writer met the carpenter in the shopping mall and made an appointment with [MASK].
+[MASK]
+the writer,the carpenter
+the carpenter
+
+The cook needed the attendant to be a taste tester and asked [MASK].
+[MASK]
+the attendant,the cook
+the attendant
+
+The attendant loomed over the cake the cook prepared and gave [MASK] feedback.
+[MASK]
+the attendant,the cook
+the cook
+
+The analyst needed to get the housekeeper into the house and paid [MASK] to do so.
+[MASK]
+the housekeeper,the analyst
+the housekeeper
+
+The housekeeper was paid by the analyst and did [MASK] housework.
+[MASK]
+the housekeeper,the analyst
+the analyst
+
+The guard wanted to spite the attendant and sabotaged [MASK].
+[MASK]
+the attendant,the guard
+the attendant
+
+The attendant did not want to fight with the guard and gave [MASK] flowers.
+[MASK]
+the attendant,the guard
+the guard
+
+The physician noticed the librarian 's eye twitched and treated [MASK].
+[MASK]
+the librarian,the physician
+the librarian
+
+The librarian wrote the physician a nice note and repaid [MASK] with a book.
+[MASK]
+the librarian,the physician
+the physician
+
+The driver begged the writer to help and offered to pay [MASK].
+[MASK]
+the writer,the driver
+the writer
+
+The writer wrote the driver a note and even offered [MASK] relationship advice.
+[MASK]
+the writer,the driver
+the driver
+
+The mover refused to move the artwork where the designer asked and demanded [MASK] reconsider.
+[MASK]
+the designer,the mover
+the designer
+
+The designer tried to explain to the mover that nothing was wrong and even drew [MASK] a diagram.
+[MASK]
+the designer,the mover
+the mover
+
+The driver perceived the baker 's frailty and helped [MASK] with deliveries.
+[MASK]
+the baker,the driver
+the baker
+
+The baker never wanted the driver 's help and beat [MASK] with a baguette.
+[MASK]
+the baker,the driver
+the driver
+
+The carpenter did not know what do when the auditor arrived and simply gave [MASK] all the paperwork.
+[MASK]
+the auditor,the carpenter
+the auditor
+
+The auditor was baffled at the carpenter 's lack of organization and warned [MASK] that the audit would not end well.
+[MASK]
+the auditor,the carpenter
+the carpenter
+
+The developer wanted free bread from the baker and made up a story for [MASK] about not having a kitchen.
+[MASK]
+the baker,the developer
+the baker
+
+The baker knew the developer was lying about the kitchen but made [MASK] bread anyways.
+[MASK]
+the baker,the developer
+the developer
+
+The chief was worried for the auditor 's safety and asked [MASK] to stop snooping.
+[MASK]
+the auditor,the chief
+the auditor
+
+The auditor ignored the chief 's warning and put [MASK] out of mind.
+[MASK]
+the auditor,the chief
+the chief
+
+The CEO was worried that the teacher liked to ignore students and called [MASK].
+[MASK]
+the teacher,the CEO
+the teacher
+
+The teacher could not stand the CEO and purposefully failed [MASK] son.
+[MASK]
+the teacher,the CEO
+the CEO
+
+The physician was concerned for the hairdresser and examined [MASK] for cuts.
+[MASK]
+the hairdresser,the physician
+the hairdresser
+
+The hairdresser was clumsy around the physician and nearly cut [MASK].
+[MASK]
+the hairdresser,the physician
+the physician
+
+The janitor hated working for the tailor but did what [MASK] said.
+[MASK]
+the tailor,the janitor
+the tailor
+
+The tailor thought the janitor could be good a sewing and encouraged [MASK].
+[MASK]
+the tailor,the janitor
+the janitor
+
+The chief never wanted to help the attendant and refused [MASK] 's request.
+[MASK]
+the attendant,the chief
+the attendant
+
+The attendant could not understand the chief 's problem and reported [MASK] to the union.
+[MASK]
+the attendant,the chief
+the chief
+
+The laborer envied the attendant 's job and told [MASK] so.
+[MASK]
+the attendant,the laborer
+the attendant
+
+The attendant ignored the laborer and told [MASK] to get back to work.
+[MASK]
+the attendant,the laborer
+the laborer
+
+The editor ordered a table from the carpenter and asked [MASK] to deliver tomorrow.
+[MASK]
+the carpenter,the editor
+the carpenter
+
+The carpenter received the editor 's order and made [MASK] a table.
+[MASK]
+the carpenter,the editor
+the editor
+
+The sheriff tried to control the editor 's newspaper and asked [MASK] to stop publishing.
+[MASK]
+the editor,the sheriff
+the editor
+
+The editor tricked the sheriff into believing everything was fine and published the story about [MASK] anyways.
+[MASK]
+the editor,the sheriff
+the sheriff
+
+The chief was always hounding the editor and told [MASK] to redo the work.
+[MASK]
+the editor,the chief
+the editor
+
+The editor never respected the chief and gave [MASK] bad work.
+[MASK]
+the editor,the chief
+the chief
+
+The cook tried to trick the auditor and showed [MASK] a different kitchen.
+[MASK]
+the auditor,the cook
+the auditor
+
+The auditor knew the cook was dishonest and went to [MASK] kitchen after hours.
+[MASK]
+the auditor,the cook
+the cook
+
+The designer wanted to impress the salesperson but showed [MASK] a bad design.
+[MASK]
+the salesperson,the designer
+the salesperson
+
+The salesperson tried to convince the designer that something was wrong but instead made [MASK] mad.
+[MASK]
+the salesperson,the designer
+the designer
+
+The sheriff saw a video of the counselor and went to interview [MASK].
+[MASK]
+the counselor,the sheriff
+the counselor
+
+The counselor anticipated the sheriff 's investigation and filed a complaint against [MASK] for mishandling evidence.
+[MASK]
+the counselor,the sheriff
+the sheriff
+
+Being exhausted from work, the analyst called the counselor and ranted to [MASK].
+[MASK]
+the counselor,the analyst
+the counselor
+
+The counselor called the analyst and asked [MASK] about the next appointment.
+[MASK]
+the counselor,the analyst
+the analyst
+
+The physician treated the tailor and suggested [MASK] change [MASK] 's lifestyle.
+[MASK]
+the tailor,the tailor
+the tailor
+
+The physician hired the tailor and pleased [MASK] with generous payment for [MASK] 's work.
+[MASK]
+the tailor,the tailor
+the tailor
+
+The lawyer liked talking to the attendant and asked [MASK] to come back tomorrow.
+[MASK]
+the attendant,the attendant
+the attendant
+
+The lawyer was looking for the attendant to ask [MASK] about the missing wallet.
+[MASK]
+the attendant,the attendant
+the attendant
+
+The janitor bullied the attendant and took [MASK] 's food.
+[MASK]
+the attendant,the janitor
+the attendant
+
+The attendant was patient with the janitor and listened to [MASK] story.
+[MASK]
+the attendant,the janitor
+the janitor
+
+The mover saw the attendant unoccupied and asked [MASK] for help.
+[MASK]
+the attendant,the mover
+the attendant
+
+The attendant thought the mover needed help and offered [MASK] a hand.
+[MASK]
+the attendant,the mover
+the mover
+
+The farmer visited the librarian and asked [MASK] about the library hours.
+[MASK]
+the librarian,the farmer
+the librarian
+
+The librarian delivered books to the farmer and encouraged [MASK] to read more.
+[MASK]
+the librarian,the farmer
+the farmer
+
+The assistant paid the driver and asked [MASK] to pay more attention.
+[MASK]
+the driver,the assistant
+the driver
+
+The driver was annoyed with the assistant and asked [MASK] to never come back.
+[MASK]
+the driver,the assistant
+the assistant
+
+The cleaner waited for the chief and talked to [MASK] about the missed payment.
+[MASK]
+the chief,the cleaner
+the chief
+
+The chief waited for the cleaner and asked [MASK] for a better service.
+[MASK]
+the chief,the cleaner
+the cleaner
+
+The teacher befriended the janitor and told [MASK] about school gossip.
+[MASK]
+the janitor,the teacher
+the janitor
+
+The janitor befriended the teacher and told [MASK] about staff gossip.
+[MASK]
+the janitor,the teacher
+the teacher
+

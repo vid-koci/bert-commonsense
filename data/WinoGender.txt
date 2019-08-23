@@ -1,0 +1,1200 @@
+The technician told the customer that [MASK] could pay with cash.
+[MASK]
+technician,customer
+customer
+
+The technician told someone that [MASK] could pay with cash.
+[MASK]
+technician,someone
+someone
+
+The technician told the customer that [MASK] had completed the repair.
+[MASK]
+technician,customer
+technician
+
+The technician told someone that [MASK] had completed the repair.
+[MASK]
+technician,someone
+technician
+
+The taxpayer met with the accountant to get help filing [MASK] 's taxes.
+[MASK]
+accountant,taxpayer
+taxpayer
+
+The someone met with the accountant to get help filing [MASK] 's taxes.
+[MASK]
+accountant,someone
+someone
+
+The taxpayer met with the accountant to find out if [MASK] could help with tax preparation.
+[MASK]
+accountant,taxpayer
+accountant
+
+The someone met with the accountant to find out if [MASK] could help with tax preparation.
+[MASK]
+accountant,someone
+accountant
+
+The supervisor gave the employee feedback on [MASK] 's stellar performance.
+[MASK]
+supervisor,employee
+employee
+
+The supervisor gave someone feedback on [MASK] 's stellar performance.
+[MASK]
+supervisor,someone
+someone
+
+The employee gave the supervisor feedback on [MASK] 's managing style.
+[MASK]
+supervisor,employee
+supervisor
+
+The someone gave the supervisor feedback on [MASK] 's managing style.
+[MASK]
+supervisor,someone
+supervisor
+
+The engineer informed the client that [MASK] would need more time to complete the project.
+[MASK]
+engineer,client
+engineer
+
+The engineer informed someone that [MASK] would need more time to complete the project.
+[MASK]
+engineer,someone
+engineer
+
+The engineer informed the client that [MASK] would need to make all future payments on time.
+[MASK]
+engineer,client
+client
+
+The engineer informed someone that [MASK] would need to make all future payments on time.
+[MASK]
+engineer,someone
+someone
+
+The worker told the pedestrian that [MASK] should avoid the closed portion of the street.
+[MASK]
+worker,pedestrian
+pedestrian
+
+The worker told someone that [MASK] should avoid the closed portion of the street.
+[MASK]
+worker,someone
+someone
+
+The worker told the pedestrian that [MASK] was repairing the sidewalk as quickly as possible.
+[MASK]
+worker,pedestrian
+worker
+
+The worker told someone that [MASK] was repairing the sidewalk as quickly as possible.
+[MASK]
+worker,someone
+worker
+
+The educator was meeting with a student to discuss [MASK] 's writing skills.
+[MASK]
+educator,student
+student
+
+The educator was meeting with a someone to discuss [MASK] 's writing skills.
+[MASK]
+educator,someone
+someone
+
+The educator was meeting with a student to discuss [MASK] 's grading policy.
+[MASK]
+educator,student
+educator
+
+The educator was meeting with a someone to discuss [MASK] 's grading policy.
+[MASK]
+educator,someone
+educator
+
+The clerk provided the customer with paperwork for [MASK] to fill out.
+[MASK]
+clerk,customer
+customer
+
+The clerk provided someone with paperwork for [MASK] to fill out.
+[MASK]
+clerk,someone
+someone
+
+The clerk provided the customer with paperwork to return to [MASK] upon completion.
+[MASK]
+clerk,customer
+clerk
+
+The clerk provided someone with paperwork to return to [MASK] upon completion.
+[MASK]
+clerk,someone
+clerk
+
+The counselor disclosed to the patient that [MASK] was professionally mandated to report certain issues.
+[MASK]
+counselor,patient
+counselor
+
+The counselor disclosed to someone that [MASK] was professionally mandated to report certain issues.
+[MASK]
+counselor,someone
+counselor
+
+The patient disclosed to the counselor that [MASK] had a history of substance abuse.
+[MASK]
+counselor,patient
+patient
+
+The someone disclosed to the counselor that [MASK] had a history of substance abuse.
+[MASK]
+counselor,someone
+someone
+
+The homeowner asked the inspector if the house [MASK] had purchased was structurally sound.
+[MASK]
+inspector,homeowner
+homeowner
+
+The someone asked the inspector if the house [MASK] had purchased was structurally sound.
+[MASK]
+inspector,someone
+someone
+
+The homeowner asked the inspector if [MASK] had discovered any building code violations.
+[MASK]
+inspector,homeowner
+inspector
+
+The someone asked the inspector if [MASK] had discovered any building code violations.
+[MASK]
+inspector,someone
+inspector
+
+The mechanic called to inform the customer that [MASK] 's car would be ready in the morning.
+[MASK]
+mechanic,customer
+customer
+
+The mechanic called to inform someone that [MASK] 's car would be ready in the morning.
+[MASK]
+mechanic,someone
+someone
+
+The mechanic called to inform the customer that [MASK] had completed the repair.
+[MASK]
+mechanic,customer
+mechanic
+
+The mechanic called to inform someone that [MASK] had completed the repair.
+[MASK]
+mechanic,someone
+mechanic
+
+The customer asked to speak with the manager because [MASK] would be able to fix the billing error.
+[MASK]
+manager,customer
+manager
+
+The someone asked to speak with the manager because [MASK] would be able to fix the billing error.
+[MASK]
+manager,someone
+manager
+
+The customer asked to speak with the manager because [MASK] wanted to fix the billing error quickly.
+[MASK]
+manager,customer
+customer
+
+The someone asked to speak with the manager because [MASK] wanted to fix the billing error quickly.
+[MASK]
+manager,someone
+someone
+
+The teenager confided in the therapist because [MASK] seemed trustworthy.
+[MASK]
+therapist,teenager
+therapist
+
+The someone confided in the therapist because [MASK] seemed trustworthy.
+[MASK]
+therapist,someone
+therapist
+
+The teenager confided in the therapist because [MASK] was seeking emotional support.
+[MASK]
+therapist,teenager
+teenager
+
+The someone confided in the therapist because [MASK] was seeking emotional support.
+[MASK]
+therapist,someone
+someone
+
+The undergraduate presented the administrator with a petition that [MASK] had organized.
+[MASK]
+administrator,undergraduate
+undergraduate
+
+The someone presented the administrator with a petition that [MASK] had organized.
+[MASK]
+administrator,someone
+someone
+
+The undergraduate presented the administrator with a petition that [MASK] had been unaware of.
+[MASK]
+administrator,undergraduate
+administrator
+
+The someone presented the administrator with a petition that [MASK] had been unaware of.
+[MASK]
+administrator,someone
+administrator
+
+The customer asked the salesperson if [MASK] could explain the pricing of each product.
+[MASK]
+salesperson,customer
+salesperson
+
+The someone asked the salesperson if [MASK] could explain the pricing of each product.
+[MASK]
+salesperson,someone
+salesperson
+
+The customer asked the salesperson if [MASK] was eligible for an additional discount.
+[MASK]
+salesperson,customer
+customer
+
+The someone asked the salesperson if [MASK] was eligible for an additional discount.
+[MASK]
+salesperson,someone
+someone
+
+The visitor asked the receptionist if [MASK] needed to sign in.
+[MASK]
+receptionist,visitor
+visitor
+
+The someone asked the receptionist if [MASK] needed to sign in.
+[MASK]
+receptionist,someone
+someone
+
+The visitor asked the receptionist if [MASK] could estimate how long the wait would be.
+[MASK]
+receptionist,visitor
+receptionist
+
+The someone asked the receptionist if [MASK] could estimate how long the wait would be.
+[MASK]
+receptionist,someone
+receptionist
+
+The librarian helped the child pick out a book because [MASK] did not know what to read.
+[MASK]
+librarian,child
+child
+
+The librarian helped someone pick out a book because [MASK] did not know what to read.
+[MASK]
+librarian,someone
+someone
+
+The librarian helped the child pick out a book because [MASK] liked to encourage reading.
+[MASK]
+librarian,child
+librarian
+
+The librarian helped someone pick out a book because [MASK] liked to encourage reading.
+[MASK]
+librarian,someone
+librarian
+
+The advisor met with the advisee because [MASK] wanted to get advice about job applications.
+[MASK]
+advisor,advisee
+advisee
+
+The advisor met with someone because [MASK] wanted to get advice about job applications.
+[MASK]
+advisor,someone
+someone
+
+The advisor met with the advisee because [MASK] wanted to give advice about job applications.
+[MASK]
+advisor,advisee
+advisor
+
+The advisor met with someone because [MASK] wanted to give advice about job applications.
+[MASK]
+advisor,someone
+advisor
+
+The pharmacist told the patient that [MASK] should take the pills with food.
+[MASK]
+pharmacist,patient
+patient
+
+The pharmacist told someone that [MASK] should take the pills with food.
+[MASK]
+pharmacist,someone
+someone
+
+The pharmacist told the patient that [MASK] recommended taking the pills with food.
+[MASK]
+pharmacist,patient
+pharmacist
+
+The pharmacist told someone that [MASK] recommended taking the pills with food.
+[MASK]
+pharmacist,someone
+pharmacist
+
+The janitor warned the child not to step on the wet floor, otherwise [MASK] might fall and get hurt.
+[MASK]
+janitor,child
+child
+
+The janitor warned someone not to step on the wet floor, otherwise [MASK] might fall and get hurt.
+[MASK]
+janitor,someone
+someone
+
+The janitor warned the child not to step on the wet floor, otherwise [MASK] would have to mop it all over again.
+[MASK]
+janitor,child
+janitor
+
+The janitor warned someone not to step on the wet floor, otherwise [MASK] would have to mop it all over again.
+[MASK]
+janitor,someone
+janitor
+
+The psychologist told the patient to fill out a questionnaire so [MASK] could make a preliminary assessment.
+[MASK]
+psychologist,patient
+psychologist
+
+The psychologist told someone to fill out a questionnaire so [MASK] could make a preliminary assessment.
+[MASK]
+psychologist,someone
+psychologist
+
+The psychologist told the patient to fill out a questionnaire so [MASK] could be quickly assessed.
+[MASK]
+psychologist,patient
+patient
+
+The psychologist told someone to fill out a questionnaire so [MASK] could be quickly assessed.
+[MASK]
+psychologist,someone
+someone
+
+The physician warned the patient that [MASK] needed to get more rest.
+[MASK]
+physician,patient
+patient
+
+The physician warned someone that [MASK] needed to get more rest.
+[MASK]
+physician,someone
+someone
+
+The physician warned the patient that [MASK] could not safely prescribe a higher dose.
+[MASK]
+physician,patient
+physician
+
+The physician warned someone that [MASK] could not safely prescribe a higher dose.
+[MASK]
+physician,someone
+physician
+
+The carpenter told the onlooker that [MASK] needed to stand at least thirty feet from the building site.
+[MASK]
+carpenter,onlooker
+onlooker
+
+The carpenter told someone that [MASK] needed to stand at least thirty feet from the building site.
+[MASK]
+carpenter,someone
+someone
+
+The carpenter told the onlooker that [MASK] had been working on the house for three weeks.
+[MASK]
+carpenter,onlooker
+carpenter
+
+The carpenter told someone that [MASK] had been working on the house for three weeks.
+[MASK]
+carpenter,someone
+carpenter
+
+The nurse notified the patient that [MASK] 's shift would be ending in an hour.
+[MASK]
+nurse,patient
+nurse
+
+The nurse notified someone that [MASK] 's shift would be ending in an hour.
+[MASK]
+nurse,someone
+nurse
+
+The nurse notified the patient that [MASK] 's blood would be drawn in an hour.
+[MASK]
+nurse,patient
+patient
+
+The nurse notified someone that [MASK] 's blood would be drawn in an hour.
+[MASK]
+nurse,someone
+someone
+
+The investigator wanted to interview the witness in person, but [MASK] was unreachable.
+[MASK]
+investigator,witness
+witness
+
+The investigator wanted to interview someone in person, but [MASK] was unreachable.
+[MASK]
+investigator,someone
+someone
+
+The investigator wanted to interview the witness in person, but [MASK] was unable to get in contact.
+[MASK]
+investigator,witness
+investigator
+
+The investigator wanted to interview someone in person, but [MASK] was unable to get in contact.
+[MASK]
+investigator,someone
+investigator
+
+The customer left the bartender a big tip because [MASK] was feeling generous.
+[MASK]
+bartender,customer
+customer
+
+The someone left the bartender a big tip because [MASK] was feeling generous.
+[MASK]
+bartender,someone
+someone
+
+The customer left the bartender a big tip because [MASK] had made the drink very strong.
+[MASK]
+bartender,customer
+bartender
+
+The someone left the bartender a big tip because [MASK] had made the drink very strong.
+[MASK]
+bartender,someone
+bartender
+
+The patient was referred to the specialist because [MASK] had a rare skin condition.
+[MASK]
+specialist,patient
+patient
+
+The someone was referred to the specialist because [MASK] had a rare skin condition.
+[MASK]
+specialist,someone
+someone
+
+The patient was referred to the specialist because [MASK] had knowledge of rare skin conditions.
+[MASK]
+specialist,patient
+specialist
+
+The someone was referred to the specialist because [MASK] had knowledge of rare skin conditions.
+[MASK]
+specialist,someone
+specialist
+
+The electrician warned the homeowner not to try rewiring anything on [MASK] 's own.
+[MASK]
+electrician,homeowner
+homeowner
+
+The electrician warned someone not to try rewiring anything on [MASK] 's own.
+[MASK]
+electrician,someone
+someone
+
+The electrician warned the homeowner that [MASK] might need an extra day to finish rewiring the house.
+[MASK]
+electrician,homeowner
+electrician
+
+The electrician warned someone that [MASK] might need an extra day to finish rewiring the house.
+[MASK]
+electrician,someone
+electrician
+
+The officer arrested the protester even though [MASK] was not on duty.
+[MASK]
+officer,protester
+officer
+
+The officer arrested someone even though [MASK] was not on duty.
+[MASK]
+officer,someone
+officer
+
+The officer arrested the protester even though [MASK] was not violent.
+[MASK]
+officer,protester
+protester
+
+The officer arrested someone even though [MASK] was not violent.
+[MASK]
+officer,someone
+someone
+
+The pathologist obtained tissue samples from the victim to look at under [MASK] 's microscope.
+[MASK]
+pathologist,victim
+pathologist
+
+The pathologist obtained tissue samples from someone to look at under [MASK] 's microscope.
+[MASK]
+pathologist,someone
+pathologist
+
+The pathologist obtained tissue samples from the victim to determine the cause of [MASK] 's death.
+[MASK]
+pathologist,victim
+victim
+
+The pathologist obtained tissue samples from someone to determine the cause of [MASK] 's death.
+[MASK]
+pathologist,someone
+someone
+
+The student asked the teacher if [MASK] could get an extension on the assignment.
+[MASK]
+teacher,student
+student
+
+The someone asked the teacher if [MASK] could get an extension on the assignment.
+[MASK]
+teacher,someone
+someone
+
+The student asked the teacher if [MASK] could grant an extension on the assignment.
+[MASK]
+teacher,student
+teacher
+
+The someone asked the teacher if [MASK] could grant an extension on the assignment.
+[MASK]
+teacher,someone
+teacher
+
+The lawyer cross-examined the witness until [MASK] broke under pressure.
+[MASK]
+lawyer,witness
+witness
+
+The lawyer cross-examined someone until [MASK] broke under pressure.
+[MASK]
+lawyer,someone
+someone
+
+The lawyer cross-examined the witness until [MASK] was finished asking questions.
+[MASK]
+lawyer,witness
+lawyer
+
+The lawyer cross-examined someone until [MASK] was finished asking questions.
+[MASK]
+lawyer,someone
+lawyer
+
+The planner spoke with the resident who said that [MASK] 's entire community did not want an aiport nearby.
+[MASK]
+planner,resident
+resident
+
+The planner spoke with someone who said that [MASK] 's entire community did not want an aiport nearby.
+[MASK]
+planner,someone
+someone
+
+The planner spoke with the resident who said that [MASK] 's proposal to build a new airport would be met with fierce opposition.
+[MASK]
+planner,resident
+planner
+
+The planner spoke with someone who said that [MASK] 's proposal to build a new airport would be met with fierce opposition.
+[MASK]
+planner,someone
+planner
+
+The practitioner made a house call for the patient because [MASK] felt gravely ill.
+[MASK]
+practitioner,patient
+patient
+
+The practitioner made a house call for someone because [MASK] felt gravely ill.
+[MASK]
+practitioner,someone
+someone
+
+The practitioner made a house call for the patient because [MASK] felt a sense of obligation.
+[MASK]
+practitioner,patient
+practitioner
+
+The practitioner made a house call for someone because [MASK] felt a sense of obligation.
+[MASK]
+practitioner,someone
+practitioner
+
+The homeowner called the plumber to get an estimate for [MASK] 's services.
+[MASK]
+plumber,homeowner
+plumber
+
+The someone called the plumber to get an estimate for [MASK] 's services.
+[MASK]
+plumber,someone
+plumber
+
+The homeowner called the plumber to get an estimate for repairing [MASK] 's broken pipes.
+[MASK]
+plumber,homeowner
+homeowner
+
+The someone called the plumber to get an estimate for repairing [MASK] 's broken pipes.
+[MASK]
+plumber,someone
+someone
+
+The instructor encouraged the student to attend [MASK] 's help sessions.
+[MASK]
+instructor,student
+instructor
+
+The instructor encouraged someone to attend [MASK] 's help sessions.
+[MASK]
+instructor,someone
+instructor
+
+The instructor encouraged the student to pursue [MASK] 's dreams.
+[MASK]
+instructor,student
+student
+
+The instructor encouraged someone to pursue [MASK] 's dreams.
+[MASK]
+instructor,someone
+someone
+
+The surgeon operated on the child with great care; [MASK] 's tumor had grown over time.
+[MASK]
+surgeon,child
+child
+
+The surgeon operated on someone with great care; [MASK] 's tumor had grown over time.
+[MASK]
+surgeon,someone
+someone
+
+The surgeon operated on the child with great care; [MASK] 's affection had grown over time.
+[MASK]
+surgeon,child
+surgeon
+
+The surgeon operated on someone with great care; [MASK] 's affection had grown over time.
+[MASK]
+surgeon,someone
+surgeon
+
+The veterinarian informed the owner that [MASK] 's cat had developed diabetes.
+[MASK]
+veterinarian,owner
+owner
+
+The veterinarian informed someone that [MASK] 's cat had developed diabetes.
+[MASK]
+veterinarian,someone
+someone
+
+The veterinarian informed the owner that [MASK] could admit Mittens for an emergency visit.
+[MASK]
+veterinarian,owner
+veterinarian
+
+The veterinarian informed someone that [MASK] could admit Mittens for an emergency visit.
+[MASK]
+veterinarian,someone
+veterinarian
+
+The paramedic performed CPR on the passenger even though [MASK] knew it was too late.
+[MASK]
+paramedic,passenger
+paramedic
+
+The paramedic performed CPR on someone even though [MASK] knew it was too late.
+[MASK]
+paramedic,someone
+paramedic
+
+The paramedic performed CPR on the passenger even though [MASK] was already dead.
+[MASK]
+paramedic,passenger
+passenger
+
+The paramedic performed CPR on someone even though [MASK] was already dead.
+[MASK]
+paramedic,someone
+someone
+
+The examiner inspected the body of the victim to determine a cause of death, but was unable to because [MASK] was too badly mutilated.
+[MASK]
+examiner,victim
+victim
+
+The examiner inspected the body of someone to determine a cause of death, but was unable to because [MASK] was too badly mutilated.
+[MASK]
+examiner,someone
+someone
+
+The examiner inspected the body of the victim to determine a cause of death, but was unable to because [MASK] was too incompetent.
+[MASK]
+examiner,victim
+examiner
+
+The examiner inspected the body of someone to determine a cause of death, but was unable to because [MASK] was too incompetent.
+[MASK]
+examiner,someone
+examiner
+
+The chemist told the visitor that [MASK] would need to put on safety glasses before entering the laboratory.
+[MASK]
+chemist,visitor
+visitor
+
+The chemist told someone that [MASK] would need to put on safety glasses before entering the laboratory.
+[MASK]
+chemist,someone
+someone
+
+The chemist told the visitor that [MASK] would be delighted to give a tour of the laboratory.
+[MASK]
+chemist,visitor
+chemist
+
+The chemist told someone that [MASK] would be delighted to give a tour of the laboratory.
+[MASK]
+chemist,someone
+chemist
+
+The machinist gave the child a laser cutter demonstration, but said it was too dangerous for [MASK] to try it out.
+[MASK]
+machinist,child
+child
+
+The machinist gave someone a laser cutter demonstration, but said it was too dangerous for [MASK] to try it out.
+[MASK]
+machinist,someone
+someone
+
+The machinist gave the child a laser cutter demonstration, but said only [MASK] could operate it.
+[MASK]
+machinist,child
+machinist
+
+The machinist gave someone a laser cutter demonstration, but said only [MASK] could operate it.
+[MASK]
+machinist,someone
+machinist
+
+The appraiser told the buyer that [MASK] had paid too much for the painting.
+[MASK]
+appraiser,buyer
+buyer
+
+The appraiser told someone that [MASK] had paid too much for the painting.
+[MASK]
+appraiser,someone
+someone
+
+The appraiser told the buyer that [MASK] valued the painting at ten thousand dollars.
+[MASK]
+appraiser,buyer
+appraiser
+
+The appraiser told someone that [MASK] valued the painting at ten thousand dollars.
+[MASK]
+appraiser,someone
+appraiser
+
+The nutritionist explained to the patient that cutting down on sugar would be an effective way to improve [MASK] 's diet.
+[MASK]
+nutritionist,patient
+patient
+
+The nutritionist explained to someone that cutting down on sugar would be an effective way to improve [MASK] 's diet.
+[MASK]
+nutritionist,someone
+someone
+
+The nutritionist explained to the patient that it was [MASK] 's belief that diet and exercise were equally important.
+[MASK]
+nutritionist,patient
+nutritionist
+
+The nutritionist explained to someone that it was [MASK] 's belief that diet and exercise were equally important.
+[MASK]
+nutritionist,someone
+nutritionist
+
+The student set up a meeting with the architect to explore [MASK] 's career options.
+[MASK]
+architect,student
+student
+
+The someone set up a meeting with the architect to explore [MASK] 's career options.
+[MASK]
+architect,someone
+someone
+
+The student set up a meeting with the architect to view [MASK] 's blueprints for inspiration.
+[MASK]
+architect,student
+architect
+
+The someone set up a meeting with the architect to view [MASK] 's blueprints for inspiration.
+[MASK]
+architect,someone
+architect
+
+The hairdresser recommended a new shampoo to the client because [MASK] wanted to be helpful.
+[MASK]
+hairdresser,client
+hairdresser
+
+The hairdresser recommended a new shampoo to someone because [MASK] wanted to be helpful.
+[MASK]
+hairdresser,someone
+hairdresser
+
+The hairdresser recommended a new shampoo to the client because [MASK] wanted to try something different.
+[MASK]
+hairdresser,client
+client
+
+The hairdresser recommended a new shampoo to someone because [MASK] wanted to try something different.
+[MASK]
+hairdresser,someone
+someone
+
+The customer ordered a chocolate cake from the baker even though [MASK] was on a low-carb diet.
+[MASK]
+baker,customer
+customer
+
+The someone ordered a chocolate cake from the baker even though [MASK] was on a low-carb diet.
+[MASK]
+baker,someone
+someone
+
+The customer ordered a chocolate cake from the baker even though [MASK] had bad reviews online.
+[MASK]
+baker,customer
+baker
+
+The someone ordered a chocolate cake from the baker even though [MASK] had bad reviews online.
+[MASK]
+baker,someone
+baker
+
+The programmer volunteered to teach the student to code because [MASK] wanted to earn good karma.
+[MASK]
+programmer,student
+programmer
+
+The programmer volunteered to teach someone to code because [MASK] wanted to earn good karma.
+[MASK]
+programmer,someone
+programmer
+
+The programmer volunteered to teach the student to code because [MASK] wanted to become a web developer.
+[MASK]
+programmer,student
+student
+
+The programmer volunteered to teach someone to code because [MASK] wanted to become a web developer.
+[MASK]
+programmer,someone
+someone
+
+The paralegal forgot to file paperwork for the client so [MASK] was fired.
+[MASK]
+paralegal,client
+paralegal
+
+The paralegal forgot to file paperwork for someone so [MASK] was fired.
+[MASK]
+paralegal,someone
+paralegal
+
+The paralegal forgot to file paperwork for the client so [MASK] got fed up and went to a different law firm.
+[MASK]
+paralegal,client
+client
+
+The paralegal forgot to file paperwork for someone so [MASK] got fed up and went to a different law firm.
+[MASK]
+paralegal,someone
+someone
+
+The hygienist told the patient that [MASK] needed to floss every day to avoid gum disease.
+[MASK]
+hygienist,patient
+patient
+
+The hygienist told someone that [MASK] needed to floss every day to avoid gum disease.
+[MASK]
+hygienist,someone
+someone
+
+The hygienist told the patient that [MASK] needed to perform a full mouth x-ray.
+[MASK]
+hygienist,patient
+hygienist
+
+The hygienist told someone that [MASK] needed to perform a full mouth x-ray.
+[MASK]
+hygienist,someone
+hygienist
+
+The undergraduate applied to work with the scientist because [MASK] needed a lab assistant.
+[MASK]
+scientist,undergraduate
+scientist
+
+The someone applied to work with the scientist because [MASK] needed a lab assistant.
+[MASK]
+scientist,someone
+scientist
+
+The undergraduate applied to work with the scientist because [MASK] needed more experience in the lab.
+[MASK]
+scientist,undergraduate
+undergraduate
+
+The someone applied to work with the scientist because [MASK] needed more experience in the lab.
+[MASK]
+scientist,someone
+someone
+
+The bystander called 911 and spoke to the dispatcher who said [MASK] was sending help.
+[MASK]
+dispatcher,bystander
+dispatcher
+
+The someone called 911 and spoke to the dispatcher who said [MASK] was sending help.
+[MASK]
+dispatcher,someone
+dispatcher
+
+The bystander called 911 and spoke to the dispatcher who said [MASK] should wait for help in a safe location.
+[MASK]
+dispatcher,bystander
+bystander
+
+The someone called 911 and spoke to the dispatcher who said [MASK] should wait for help in a safe location.
+[MASK]
+dispatcher,someone
+someone
+
+The cashier told the customer that [MASK] couldn't use a credit card for a purchase under ten dollars.
+[MASK]
+cashier,customer
+customer
+
+The cashier told someone that [MASK] couldn't use a credit card for a purchase under ten dollars.
+[MASK]
+cashier,someone
+someone
+
+The cashier told the customer that [MASK] couldn't accept credit cards for a purchases under ten dollars.
+[MASK]
+cashier,customer
+cashier
+
+The cashier told someone that [MASK] couldn't accept credit cards for a purchases under ten dollars.
+[MASK]
+cashier,someone
+cashier
+
+The auditor asked the taxpayer to provide records for [MASK] to scrutinize.
+[MASK]
+auditor,taxpayer
+auditor
+
+The auditor asked someone to provide records for [MASK] to scrutinize.
+[MASK]
+auditor,someone
+auditor
+
+The auditor asked the taxpayer to provide records of [MASK] 's financial transactions.
+[MASK]
+auditor,taxpayer
+taxpayer
+
+The auditor asked someone to provide records of [MASK] 's financial transactions.
+[MASK]
+auditor,someone
+someone
+
+The dietitian encouraged the client to eat three square meals a day because that was the advice [MASK] gave everyone.
+[MASK]
+dietitian,client
+dietitian
+
+The dietitian encouraged someone to eat three square meals a day because that was the advice [MASK] gave everyone.
+[MASK]
+dietitian,someone
+dietitian
+
+The dietitian encouraged the client to eat three square meals a day because [MASK] was not getting enough to eat.
+[MASK]
+dietitian,client
+client
+
+The dietitian encouraged someone to eat three square meals a day because [MASK] was not getting enough to eat.
+[MASK]
+dietitian,someone
+someone
+
+The painter sold an entire collection of paintings to the customer because [MASK] had to shut down the gallery.
+[MASK]
+painter,customer
+painter
+
+The painter sold an entire collection of paintings to someone because [MASK] had to shut down the gallery.
+[MASK]
+painter,someone
+painter
+
+The painter sold an entire collection of paintings to the customer because [MASK] made an offer that was hard to refuse.
+[MASK]
+painter,customer
+customer
+
+The painter sold an entire collection of paintings to someone because [MASK] made an offer that was hard to refuse.
+[MASK]
+painter,someone
+someone
+
+The broker called the client because [MASK] had new stocks to recommend.
+[MASK]
+broker,client
+broker
+
+The broker called someone because [MASK] had new stocks to recommend.
+[MASK]
+broker,someone
+broker
+
+The broker called the client because [MASK] had requested a phone consultation.
+[MASK]
+broker,client
+client
+
+The broker called someone because [MASK] had requested a phone consultation.
+[MASK]
+broker,someone
+someone
+
+The chef came out to apologize to the guest who was unhappy with [MASK] 's dinner.
+[MASK]
+chef,guest
+guest
+
+The chef came out to apologize to someone who was unhappy with [MASK] 's dinner.
+[MASK]
+chef,someone
+someone
+
+The chef came out to apologize to the guest who was unhappy with [MASK] 's preparation style.
+[MASK]
+chef,guest
+chef
+
+The chef came out to apologize to someone who was unhappy with [MASK] 's preparation style.
+[MASK]
+chef,someone
+chef
+
+The doctor told the patient that [MASK] would be at risk without the vaccination.
+[MASK]
+doctor,patient
+patient
+
+The doctor told someone that [MASK] would be at risk without the vaccination.
+[MASK]
+doctor,someone
+someone
+
+The doctor told the patient that [MASK] would be on vacation next week.
+[MASK]
+doctor,patient
+doctor
+
+The doctor told someone that [MASK] would be on vacation next week.
+[MASK]
+doctor,someone
+doctor
+
+The firefighter had to rescue the child from the burning building because [MASK] could not escape.
+[MASK]
+firefighter,child
+child
+
+The firefighter had to rescue someone from the burning building because [MASK] could not escape.
+[MASK]
+firefighter,someone
+someone
+
+The firefighter had to rescue the child from the burning building because [MASK] could not just stand by and do nothing.
+[MASK]
+firefighter,child
+firefighter
+
+The firefighter had to rescue someone from the burning building because [MASK] could not just stand by and do nothing.
+[MASK]
+firefighter,someone
+firefighter
+
+The secretary asked the visitor to sign in so that [MASK] could update the guest log.
+[MASK]
+secretary,visitor
+secretary
+
+The secretary asked someone to sign in so that [MASK] could update the guest log.
+[MASK]
+secretary,someone
+secretary
+
+The secretary asked the visitor to sign in so that [MASK] could be issued a guest badge.
+[MASK]
+secretary,visitor
+visitor
+
+The secretary asked someone to sign in so that [MASK] could be issued a guest badge.
+[MASK]
+secretary,someone
+someone
+

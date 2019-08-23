@@ -1,12 +1,14 @@
 # A Surprisingly Robust Trick for Winograd Schema Challenge
 
-This code contains models and experiments for the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://arxiv.org/abs/1905.06290).
+This code contains models and experiments for the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://arxiv.org/abs/1905.06290) and [WikiCREM: A Large Unsupervised Corpus for Coreference Resolution](https://arxiv.org/abs/1908.08025).
 
 The MaskedWiki datasets and pre-trained models can be downloaded from [this webpage](https://ora.ox.ac.uk/objects/uuid:9b34602b-c982-4b49-b4f4-6555b5a82c3d). The link contains two datasets, MaskedWiki\_Sample (~2.4M examples) and MaskedWiki\_Full (~130M examples). All the experiments were conducted with the MaskedWiki\_Sample only.
 
-The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (version 0.4.1 was used), tqdm, boto3, nltk (version 3.3 was used), requests
+The WikiCREM datasets and BERT\_WikiCREM model can be downloaded from [this webpage](https://ora.ox.ac.uk/objects/uuid:c83e94bb-7584-41a1-aef9-85b0e764d9e3).
 
-To evaluate BERT, use the following script:
+The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (version 0.4.1 was used), tqdm, boto3, nltk (version 3.3 was used), requests, Spacy (version 2.0.13 was used), Spaccy en\_core\_web\_lg model.
+
+To evaluate BERT on all datasets, use the following script:
 ```
 python main.py \
       --task_name wscr \
@@ -69,7 +71,7 @@ python main.py \
       --output_dir model_output/ \
       --load_from_file models/BERT_Wiki 
 ```
-## Reference
+## References
 
 ```
 @inproceedings{kocijan19acl,
@@ -82,6 +84,21 @@ python main.py \
     booktitle = {The 57th Annual Meeting of the Association for Computational Linguistics (ACL)},
     address = {Florence, Italy},
     month = {July},
+    year = {2019}
+}
+```
+```
+@inproceedings{kocijan19emnlp,
+    title     = {A Surprisingly Robust Trick for Winograd Schema Challenge},
+    author    = {Vid Kocijan and
+               Ana-Maria Cretu and
+               Oana-Maria Camburu and
+               Yordan Yordanov and
+               Phil Blunsom and
+               Thomas Lukasiewicz},
+    booktitle = {Proceedings of the 2019 Conference on Empirical Methods in Natural Language Processing (EMNLP)},
+    address = {Hong Kong},
+    month = {November},
     year = {2019}
 }
 ```
