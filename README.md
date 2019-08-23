@@ -1,4 +1,4 @@
-# A Surprisingly Robust Trick for Winograd Schema Challenge
+# A Surprisingly Robust Trick for Winograd Schema Challenge and WikiCREM: A Large Unsupervised Corpus for Coreference Resolution
 
 This code contains models and experiments for the paper [A Surprisingly Robust Trick for Winograd Schema Challenge](https://arxiv.org/abs/1905.06290) and [WikiCREM: A Large Unsupervised Corpus for Coreference Resolution](https://arxiv.org/abs/1908.08025).
 
