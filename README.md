@@ -6,7 +6,7 @@ The MaskedWiki datasets and pre-trained models can be downloaded from [this webp
 
 The WikiCREM datasets and BERT\_WikiCREM model can be downloaded from [this webpage](https://ora.ox.ac.uk/objects/uuid:c83e94bb-7584-41a1-aef9-85b0e764d9e3).
 
-The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (version 0.4.1 was used), tqdm, boto3, nltk (version 3.3 was used), requests, Spacy (version 2.0.13 was used), Spaccy en\_core\_web\_lg model.
+The following libraries are needed to run the code: Python 3 (version 3.6 or later),  numpy (version 1.14 was used), pytorch (version 0.4.1 was used), tqdm, boto3, nltk (version 3.3 was used), requests, Spacy (version 2.0.13 was used), Spacy en\_core\_web\_lg model.
 
 To evaluate BERT on all datasets, use the following script:
 ```
