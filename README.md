@@ -89,7 +89,7 @@ python main.py \
 ```
 ```
 @inproceedings{kocijan19emnlp,
-    title     = {A Surprisingly Robust Trick for Winograd Schema Challenge},
+    title     = {WikiCREM: A Large Unsupervised Corpus for Coreference Resolution},
     author    = {Vid Kocijan and
                Ana-Maria Cretu and
                Oana-Maria Camburu and
