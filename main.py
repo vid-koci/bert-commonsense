@@ -354,7 +354,7 @@ def main():
     else:
         device = torch.device("cuda", args.local_rank)
         n_gpu = 1
-        # Initializes the distributed backend which will take care of sychronizing nodes/GPUs
+        # Initializes the distributed backend which will take care of synchronizing nodes/GPUs
         torch.distributed.init_process_group(backend='nccl')
     logger.info("device %s n_gpu %d distributed training %r", device, n_gpu, bool(args.local_rank != -1))
 
