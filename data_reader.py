@@ -2,6 +2,7 @@ import os
 from tqdm import trange,tqdm
 import gap_utils
 import wnli_utils
+import re
 
 class InputExample(object):
     """A single training/test example for simple sequence classification."""
@@ -102,7 +103,7 @@ class DataProcessor(object):
         for id_x,(sent,pronoun,candidates,candidate_a,_) in enumerate(zip(lines[0::5],lines[1::5],lines[2::5],lines[3::5],lines[4::5])):
             guid = id_x
             sent = sent.strip()
-            text_a = sent.replace(' '+pronoun.strip()+' '," _ ",1)
+            text_a = re.sub(r'\b%s\b' % pronoun.strip(),"_",sent,1)
             cnd = candidates.split(",")
             cnd = (cnd[0].strip().lstrip(),cnd[1].strip().lstrip())
             candidate_a = candidate_a.strip().lstrip()
@@ -119,7 +120,7 @@ class DataProcessor(object):
         for id_x,(sent,pronoun,candidates,candidate_a,_) in enumerate(zip(lines[0::5],lines[1::5],lines[2::5],lines[3::5],lines[4::5])):
             guid = id_x
             sent = sent.strip()
-            text_a = sent.replace(' '+pronoun.strip()+' '," _ ",1)
+            text_a = re.sub(r'\b%s\b' % pronoun.strip(),"_",sent,1)
             candidate_a = candidate_a.strip().lstrip()
             cnd = candidates.strip().split(",")
             cnd = (candidate.strip().lstrip() for candidate in cnd if candidate.strip().lstrip().casefold()!= candidate_a.casefold())
